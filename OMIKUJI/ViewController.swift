@@ -19,7 +19,24 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    //ここからシェイクの処理　↓
+    //iOSシュミレーターでのシェイクは Command + Control + Z
+    override func canBecomeFirstResponder() -> Bool {
+        return true
+    }
+    
+    override func motionBegan(motion: UIEventSubtype, withEvent event: UIEvent) {
+        if event.type == UIEventType.Motion && event.subtype == UIEventSubtype.MotionShake {
+            // シェイク動作始まり時の処理
+        }
+    }
+    
+    override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent) {
+        if event.type == UIEventType.Motion && event.subtype == UIEventSubtype.MotionShake {
+            // シェイク動作終了時の処理
+        }
+    }
+    //ここまでシェイクの処理　↑
 }
 
