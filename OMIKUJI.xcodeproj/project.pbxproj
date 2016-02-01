@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		811360C41C5F7E7B00FDD14E /* oneday-onetime.png in Resources */ = {isa = PBXBuildFile; fileRef = 811360C31C5F7E7B00FDD14E /* oneday-onetime.png */; };
 		815875DD1C5E398400821609 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 815875DC1C5E398400821609 /* bg.png */; };
 		D800CE511C5CAAA100C23E3B /* 古来.png in Resources */ = {isa = PBXBuildFile; fileRef = D800CDED1C5CAAA000C23E3B /* 古来.png */; };
 		D800CE521C5CAAA100C23E3B /* 古来2.png in Resources */ = {isa = PBXBuildFile; fileRef = D800CDEE1C5CAAA000C23E3B /* 古来2.png */; };
@@ -135,6 +136,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		811360C31C5F7E7B00FDD14E /* oneday-onetime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "oneday-onetime.png"; path = "古来/oneday-onetime.png"; sourceTree = "<group>"; };
 		815875DC1C5E398400821609 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		D800CDED1C5CAAA000C23E3B /* 古来.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "古来.png"; path = "古来/古来.png"; sourceTree = "<group>"; };
 		D800CDEE1C5CAAA000C23E3B /* 古来2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "古来2.png"; path = "古来/古来2.png"; sourceTree = "<group>"; };
@@ -277,6 +279,7 @@
 		815875DE1C5E398B00821609 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				811360C31C5F7E7B00FDD14E /* oneday-onetime.png */,
 				D800CEB51C5CE63200C23E3B /* 古来 */,
 				815875DC1C5E398400821609 /* bg.png */,
 			);
@@ -549,6 +552,7 @@
 				D800CE8F1C5CAAA100C23E3B /* 古来63.png in Resources */,
 				D800CEA71C5CAAA100C23E3B /* 古来87.png in Resources */,
 				D800CE731C5CAAA100C23E3B /* 古来35.png in Resources */,
+				811360C41C5F7E7B00FDD14E /* oneday-onetime.png in Resources */,
 				D800CE6A1C5CAAA100C23E3B /* 古来26.png in Resources */,
 				D800CEA31C5CAAA100C23E3B /* 古来83.png in Resources */,
 				D800CEA51C5CAAA100C23E3B /* 古来85.png in Resources */,
