@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		815875DD1C5E398400821609 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 815875DC1C5E398400821609 /* bg.png */; };
 		D800CE511C5CAAA100C23E3B /* 古来.png in Resources */ = {isa = PBXBuildFile; fileRef = D800CDED1C5CAAA000C23E3B /* 古来.png */; };
 		D800CE521C5CAAA100C23E3B /* 古来2.png in Resources */ = {isa = PBXBuildFile; fileRef = D800CDEE1C5CAAA000C23E3B /* 古来2.png */; };
 		D800CE531C5CAAA100C23E3B /* 古来3.png in Resources */ = {isa = PBXBuildFile; fileRef = D800CDEF1C5CAAA000C23E3B /* 古来3.png */; };
@@ -134,6 +135,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		815875DC1C5E398400821609 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		D800CDED1C5CAAA000C23E3B /* 古来.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "古来.png"; path = "古来/古来.png"; sourceTree = "<group>"; };
 		D800CDEE1C5CAAA000C23E3B /* 古来2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "古来2.png"; path = "古来/古来2.png"; sourceTree = "<group>"; };
 		D800CDEF1C5CAAA000C23E3B /* 古来3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "古来3.png"; path = "古来/古来3.png"; sourceTree = "<group>"; };
@@ -272,6 +274,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		815875DE1C5E398B00821609 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D800CEB51C5CE63200C23E3B /* 古来 */,
+				815875DC1C5E398400821609 /* bg.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		D85564611C39110A00028901 = {
 			isa = PBXGroup;
 			children = (
@@ -293,7 +304,6 @@
 		D855646C1C39110A00028901 /* OMIKUJI */ = {
 			isa = PBXGroup;
 			children = (
-				D800CEB51C5CE63200C23E3B /* 古来 */,
 				D800CDED1C5CAAA000C23E3B /* 古来.png */,
 				D800CDEE1C5CAAA000C23E3B /* 古来2.png */,
 				D800CDEF1C5CAAA000C23E3B /* 古来3.png */,
@@ -399,6 +409,7 @@
 				D858B91C1C535C9A00C5B9B0 /* 現代menu.png */,
 				D858B9181C535C1500C5B9B0 /* 古来menu.png */,
 				D858B9161C535A2900C5B9B0 /* top.png */,
+				815875DE1C5E398B00821609 /* Images */,
 				D8FC56791C4A3A7100436299 /* Images.xcassets */,
 				D8A760DF1C4C83E90063BADF /* appicon.png */,
 				D855646F1C39110A00028901 /* AppDelegate.swift */,
@@ -608,6 +619,7 @@
 				D800CEA11C5CAAA100C23E3B /* 古来81.png in Resources */,
 				D800CE8C1C5CAAA100C23E3B /* 古来60.png in Resources */,
 				D800CE901C5CAAA100C23E3B /* 古来64.png in Resources */,
+				815875DD1C5E398400821609 /* bg.png in Resources */,
 				D800CEAB1C5CAAA100C23E3B /* 古来91.png in Resources */,
 				D800CEB21C5CAAA100C23E3B /* 古来98.png in Resources */,
 				D800CE621C5CAAA100C23E3B /* 古来18.png in Resources */,
