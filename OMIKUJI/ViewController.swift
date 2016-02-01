@@ -47,7 +47,7 @@ class ViewController: UIViewController {
 //            performSegueWithIdentifier("result",sender: )
             
             let resultViewController = self.storyboard!.instantiateViewControllerWithIdentifier( "result" ) as UIViewController
-            self.presentViewController( tViewController, animated: true, completion: nil)
+            self.presentViewController(resultViewController, animated: true, completion: nil)
 
             // シェイク動作終了時の処理
 //            var result: Int

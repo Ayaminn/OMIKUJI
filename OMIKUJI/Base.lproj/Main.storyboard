@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="422" y="323"/>
         </scene>
-        <!--View Controller-->
+        <!--Gendai-->
         <scene sceneID="WME-uh-bFR">
             <objects>
-                <viewController id="bva-9o-YD5" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Gendai" id="bva-9o-YD5" customClass="Gendai" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Yuv-5Y-JnU"/>
                         <viewControllerLayoutGuide type="bottom" id="Cda-uh-Qf0"/>
@@ -395,7 +395,7 @@
         <!--Result View Controller-->
         <scene sceneID="o0r-BI-mwp">
             <objects>
-                <viewController storyboardIdentifier="result" id="WOD-PN-2no" customClass="ResultViewController" customModule="OMIKUJI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="resultGendai" id="WOD-PN-2no" customClass="ResultViewController" customModule="OMIKUJI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="v7X-lm-UkX"/>
                         <viewControllerLayoutGuide type="bottom" id="klM-I5-rmp"/>
@@ -425,9 +425,9 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
+                                        <exclude reference="UTR-ff-Oei"/>
                                         <exclude reference="nZz-2R-khS"/>
                                         <exclude reference="zdB-U8-8Ge"/>
-                                        <exclude reference="UTR-ff-Oei"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -501,24 +501,24 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="IHI-wh-WGI"/>
-                                <exclude reference="Ph3-mB-vsW"/>
-                                <exclude reference="WNy-f8-mDA"/>
-                                <exclude reference="ygx-2h-txX"/>
-                                <exclude reference="Q8k-Om-eXV"/>
-                                <exclude reference="TZn-cJ-33x"/>
                                 <exclude reference="4Jb-Tt-oUj"/>
                                 <exclude reference="AxT-g2-fEf"/>
+                                <exclude reference="IHI-wh-WGI"/>
+                                <exclude reference="Ph3-mB-vsW"/>
+                                <exclude reference="Q8k-Om-eXV"/>
+                                <exclude reference="TZn-cJ-33x"/>
+                                <exclude reference="WNy-f8-mDA"/>
                                 <exclude reference="pSJ-ph-QW8"/>
+                                <exclude reference="ygx-2h-txX"/>
                                 <exclude reference="9ok-zl-FRi"/>
                                 <exclude reference="L24-WG-g01"/>
-                                <exclude reference="YQS-v0-Xzg"/>
                                 <exclude reference="5Z7-Ox-oLo"/>
+                                <exclude reference="YQS-v0-Xzg"/>
                                 <exclude reference="xsq-Gj-Rhl"/>
+                                <exclude reference="3SF-lo-hHD"/>
                                 <exclude reference="3z3-Ak-e6P"/>
                                 <exclude reference="ABD-EU-7QA"/>
                                 <exclude reference="au4-76-iIY"/>
-                                <exclude reference="3SF-lo-hHD"/>
                             </mask>
                         </variation>
                     </view>
