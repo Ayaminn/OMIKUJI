@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		811360C41C5F7E7B00FDD14E /* oneday-onetime.png in Resources */ = {isa = PBXBuildFile; fileRef = 811360C31C5F7E7B00FDD14E /* oneday-onetime.png */; };
+		813ED29E1C5F97300089762E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813ED29D1C5F97300089762E /* MenuViewController.swift */; };
 		815875DD1C5E398400821609 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 815875DC1C5E398400821609 /* bg.png */; };
 		D800CE511C5CAAA100C23E3B /* 古来.png in Resources */ = {isa = PBXBuildFile; fileRef = D800CDED1C5CAAA000C23E3B /* 古来.png */; };
 		D800CE521C5CAAA100C23E3B /* 古来2.png in Resources */ = {isa = PBXBuildFile; fileRef = D800CDEE1C5CAAA000C23E3B /* 古来2.png */; };
@@ -137,6 +138,7 @@
 
 /* Begin PBXFileReference section */
 		811360C31C5F7E7B00FDD14E /* oneday-onetime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "oneday-onetime.png"; path = "古来/oneday-onetime.png"; sourceTree = "<group>"; };
+		813ED29D1C5F97300089762E /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		815875DC1C5E398400821609 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		D800CDED1C5CAAA000C23E3B /* 古来.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "古来.png"; path = "古来/古来.png"; sourceTree = "<group>"; };
 		D800CDEE1C5CAAA000C23E3B /* 古来2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "古来2.png"; path = "古来/古来2.png"; sourceTree = "<group>"; };
@@ -419,6 +421,7 @@
 				D85564711C39110A00028901 /* ViewController.swift */,
 				D81B89CF1C58BA70005030F2 /* ResultViewController.swift */,
 				D85564731C39110A00028901 /* Main.storyboard */,
+				813ED29D1C5F97300089762E /* MenuViewController.swift */,
 				D88B617A1C4A2DD2000636A3 /* LaunchScreen6.xib */,
 				D855646D1C39110A00028901 /* Supporting Files */,
 			);
@@ -665,6 +668,7 @@
 				D85564721C39110A00028901 /* ViewController.swift in Sources */,
 				D85564701C39110A00028901 /* AppDelegate.swift in Sources */,
 				D81B89D01C58BA70005030F2 /* ResultViewController.swift in Sources */,
+				813ED29E1C5F97300089762E /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,15 +7,34 @@
 //
 
 import UIKit
+import Social
 
 class ResultViewController: UIViewController {
+    
     var img01 :UIImage = UIImage(named:"古来.png")!
+    
     var img02 :UIImage = UIImage(named:"古来2.png")!
     var img03 :UIImage = UIImage(named:"古来3.png")!
     
-    var imgArray:[UIImage] = []
+    var oldImgNameArray:[String] = ["古来.png","古来2.png","古来3.png", "古来4.png", "古来5.png", "古来6.png", "古来7.png", "古来8.png", "古来9.png", "古来10.png", "古来11.png", "古来12.png", "古来13.png", "古来14.png", "古来15.png", "古来16.png", "古来17.png", "古来18.png", "古来19.png", "古来20.png", "古来21.png", "古来22.png", "古来23.png", "古来24.png", "古来25.png", "古来26.png", "古来27.png", "古来28.png", "古来29.png", "古来30.png", "古来31.png", "古来32.png", "古来33.png", "古来34.png", "古来35.png", "古来36.png", "古来37.png", "古来38.png", "古来39.png", "古来40.png", "古来41.png", "古来42.png", "古来43.png", "古来44.png", "古来45.png", "古来46.png", "古来47.png", "古来48.png", "古来49.png", "古来50.png", "古来51.png", "古来52.png", "古来53.png", "古来54.png", "古来55.png", "古来56.png", "古来57.png", "古来58.png", "古来59.png", "古来60.png", "古来61.png", "古来62.png", "古来63.png", "古来64.png", "古来65.png", "古来66.png", "古来67.png", "古来68.png", "古来69.png", "古来70.png", "古来71.png", "古来72.png", "古来73.png", "古来74.png", "古来75.png", "古来76.png", "古来77.png", "古来78.png", "古来79.png", "古来80.png", "古来81.png", "古来82.png", "古来83.png", "古来84.png", "古来85.png", "古来86.png", "古来87.png", "古来88.png", "古来89.png", "古来90.png", "古来91.png", "古来92.png", "古来93.png", "古来94.png", "古来95.png", "古来96.png", "古来97.png", "古来98.png", "古来99.png", "古来100"]
     
+    var presentImgNameArray: [String] = []
+    var aohaRoidImgNameArray: [String] = []
     @IBOutlet var resultView : UIImageView!
+    
+    var myComposeView : SLComposeViewController!
+    
+    //    @IBAction func save(sender:UIButton) {
+    //        UIImageWriteToSavedPhotosAlbum(resultView.image!, self, "image:didFinishSavingWithError:contextInfo:", nil)
+    //    }
+    //
+    //    func image(image: UIImage, didFinishSavingWithError error: NSError!, contextInfo: UnsafeMutablePointer<Void>) {
+    //        if error != nil {
+    //            //プライバシー設定不許可など書き込み失敗時は -3310 (ALAssetsLibraryDataUnavailableError)
+    //            print(error.code)
+    //        }
+    //    }
+    
     
     override func prefersStatusBarHidden() -> Bool {
         return true
@@ -24,16 +43,105 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let appDel = UIApplication.sharedApplication().delegate as! AppDelegate
+        let num = appDel.num
         
-                imgArray = [img01,img02,img03]
+        let ret = Int(arc4random_uniform(3))
         
-                let ret = Int(arc4random_uniform(3))
+        switch(num){
+            case 1:
+                resultView.image = UIImage(named: oldImgNameArray[ret])
+                break
+            case 2:
+                resultView.image = UIImage(named: presentImgNameArray[ret])
+                break
+            case 3:
+                resultView.image = UIImage(named: aohaRoidImgNameArray[ret])
+                break
+            default:
+                break
+        }
         
-                resultView.image = imgArray[ret]
+        
+        NSTimer.scheduledTimerWithTimeInterval(100, target: self, selector: "updateDateLabel", userInfo: nil, repeats: true)
+        
+        //86400
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func updateDateLabel(){
+        //let now = NSDate()
+        let topViewController = self.storyboard!.instantiateViewControllerWithIdentifier( "back" ) as UIViewController
+        self.presentViewController( topViewController, animated: true, completion: nil)
+        
     }
+    
+    var dateFormatter: NSDateFormatter{
+        let formatter = NSDateFormatter()
+        formatter.dateFormat = "yyyy/MM/dd HH:mm:ss"
+        return formatter
+    }
+    //
+    //    var saveImage: UIImage?
+    //
+    //    var frame:CGRect?
+    //
+    //    func screenShot() -> UIImage{
+    //        // スクリーンショットの取得開始
+    //        UIGraphicsBeginImageContextWithOptions(resultView.frame.size, true, 1.0)
+    //
+    //        // ImageViewの座標取得
+    //        let x:CGFloat = self.resultView.bounds.origin.x
+    //        let y:CGFloat = self.resultView.bounds.origin.y
+    //
+    //        // ImageViewの幅と高さを取得
+    //        let width:CGFloat = self.resultView.bounds.width;
+    //        let height:CGFloat = self.resultView.bounds.height
+    //
+    //        // 上記よりフレームを生成する
+    //        frame = CGRect(x: x, y: y, width: width, height: height)
+    //
+    //        // frameのサイズと場所で描画
+    //        resultView.drawViewHierarchyInRect(frame!, afterScreenUpdates: true)
+    //
+    //        // 描画したスクリーンショットを取得する
+    //        saveImage = UIGraphicsGetImageFromCurrentImageContext()
+    //
+    //        // 取得終了
+    //        UIGraphicsEndImageContext()
+    //
+    //        // スクショを返す
+    //        return saveImage!
+    //    }
+    //
+    //    @IBAction func save(sender:UIButton) {
+    //        UIImageWriteToSavedPhotosAlbum(self.screenShot(), self, "image:didFinishSavingWithError:contextInfo:", nil)
+    //    }
+    //
+    //
+    //    //保存処理のイベント
+    //    func image(image: UIImage, didFinishSavingWithError error: NSError!, contextInfo: UnsafeMutablePointer<Void>) {
+    //        if error != nil {
+    //            //エラーの時
+    //        }
+    //    }
+    
+    func onClickTweetButton(sender: UIButton) {
+        //
+        //        let text = "御神籤アプリをプレイしたよ！結果は…?!" : resultView.image
+        //
+        //        let composeViewController: SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeTwitter)!
+        //        composeViewController.setInitialText(text)
+        //
+        //        self.presentViewController(composeViewController, animated: true, completion: nil)
+        myComposeView = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
+        myComposeView.setInitialText("御神籤アプリをプレイしたよ！ By Test Users")
+        myComposeView.addImage(resultView.image)
+        self.presentViewController(myComposeView, animated: true, completion: nil)
+    }
+    
+    func save(sender: UIButton) {
+        UIImageWriteToSavedPhotosAlbum(resultView.image!, self, "image:didFinishSavingWithError:contextInfo:", nil)
+        
+    }
+    
 } 
