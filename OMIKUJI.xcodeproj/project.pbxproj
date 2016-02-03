@@ -123,6 +123,7 @@
 		D858B91E1C535C9A00C5B9B0 /* menu青春.png in Resources */ = {isa = PBXBuildFile; fileRef = D858B91B1C535C9A00C5B9B0 /* menu青春.png */; };
 		D858B91F1C535C9A00C5B9B0 /* 現代menu.png in Resources */ = {isa = PBXBuildFile; fileRef = D858B91C1C535C9A00C5B9B0 /* 現代menu.png */; };
 		D88B617B1C4A2DD2000636A3 /* LaunchScreen6.xib in Resources */ = {isa = PBXBuildFile; fileRef = D88B617A1C4A2DD2000636A3 /* LaunchScreen6.xib */; };
+		D88C0E291C623EE300476C42 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D88C0E281C623EE300476C42 /* UIImage+animatedGIF.m */; };
 		D8A760E01C4C83E90063BADF /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A760DF1C4C83E90063BADF /* appicon.png */; };
 		D8FC567A1C4A3A7100436299 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8FC56791C4A3A7100436299 /* Images.xcassets */; };
 /* End PBXBuildFile section */
@@ -258,6 +259,9 @@
 		D858B91B1C535C9A00C5B9B0 /* menu青春.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu青春.png"; sourceTree = "<group>"; };
 		D858B91C1C535C9A00C5B9B0 /* 現代menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代menu.png"; sourceTree = "<group>"; };
 		D88B617A1C4A2DD2000636A3 /* LaunchScreen6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen6.xib; sourceTree = "<group>"; };
+		D88C0E261C623EE200476C42 /* OMIKUJI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OMIKUJI-Bridging-Header.h"; sourceTree = "<group>"; };
+		D88C0E271C623EE300476C42 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		D88C0E281C623EE300476C42 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 		D8A760DF1C4C83E90063BADF /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
 		D8FC56791C4A3A7100436299 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -417,6 +421,8 @@
 				D858B9181C535C1500C5B9B0 /* 古来menu.png */,
 				D858B9161C535A2900C5B9B0 /* top.png */,
 				D84097CE1C623B08004C9A72 /* 12540106_916115085152005_2121673590_n.jpg */,
+				D88C0E271C623EE300476C42 /* UIImage+animatedGIF.h */,
+				D88C0E281C623EE300476C42 /* UIImage+animatedGIF.m */,
 				815875DE1C5E398B00821609 /* Images */,
 				D8FC56791C4A3A7100436299 /* Images.xcassets */,
 				D8A760DF1C4C83E90063BADF /* appicon.png */,
@@ -427,6 +433,7 @@
 				813ED29D1C5F97300089762E /* MenuViewController.swift */,
 				D88B617A1C4A2DD2000636A3 /* LaunchScreen6.xib */,
 				D855646D1C39110A00028901 /* Supporting Files */,
+				D88C0E261C623EE200476C42 /* OMIKUJI-Bridging-Header.h */,
 			);
 			path = OMIKUJI;
 			sourceTree = "<group>";
@@ -672,6 +679,7 @@
 				D85564721C39110A00028901 /* ViewController.swift in Sources */,
 				D85564701C39110A00028901 /* AppDelegate.swift in Sources */,
 				D81B89D01C58BA70005030F2 /* ResultViewController.swift in Sources */,
+				D88C0E291C623EE300476C42 /* UIImage+animatedGIF.m in Sources */,
 				813ED29E1C5F97300089762E /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -793,12 +801,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = OMIKUJI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "OMIKUJI/OMIKUJI-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -806,12 +817,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = OMIKUJI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "OMIKUJI/OMIKUJI-Bridging-Header.h";
 			};
 			name = Release;
 		};
