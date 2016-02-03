@@ -49,11 +49,11 @@ class MenuViewController: UIViewController {
             //----今日2回目以降----
             print("本日二回目以降です")
             
-            oneDayViewController()
+            //oneDayViewController()
             
             //====== テスト用 =====
             AppDel.num = 1
-            //nextViewController()
+            nextViewController()
             //===== テスト用 =====
         }
     }

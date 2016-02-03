@@ -19,22 +19,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="スマホを振ってね" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gcm-fX-14v">
-                                <rect key="frame" x="52" y="147" width="216" height="33"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="12540106_916115085152005_2121673590_n.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GL5-rp-GVr">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="Gcm-fX-14v" secondAttribute="centerX" id="smM-ll-wfv"/>
-                            <constraint firstItem="Gcm-fX-14v" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-120" id="zQo-da-298"/>
-                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="answerLabel" destination="Gcm-fX-14v" id="x2p-WJ-SYU"/>
                         <segue destination="C6D-ZZ-fK3" kind="show" identifier="result" id="pii-D4-LnF"/>
                     </connections>
                 </viewController>
@@ -231,7 +223,7 @@
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N5f-Qk-z8v">
                                 <rect key="frame" x="-4" y="502" width="328" height="66"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" restorationIdentifier="save" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYH-UP-YSR">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" restorationIdentifier="saveButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYH-UP-YSR">
                                         <rect key="frame" x="50" y="15" width="81" height="36"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="EYH-UP-YSR" secondAttribute="height" multiplier="88:39" id="2jU-Cz-fKp"/>
@@ -249,7 +241,7 @@
                                             </mask>
                                         </variation>
                                         <connections>
-                                            <action selector="save:" destination="C6D-ZZ-fK3" eventType="touchDown" id="4KW-Jn-Yyj"/>
+                                            <action selector="save:" destination="C6D-ZZ-fK3" eventType="touchDown" id="e3t-B7-uDC"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBJ-G5-1pi">
@@ -357,6 +349,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="12540106_916115085152005_2121673590_n.jpg" width="532" height="945"/>
         <image name="bg.png" width="379" height="549"/>
         <image name="menu青春.png" width="503" height="141"/>
         <image name="oneday-onetime.png" width="105" height="23"/>

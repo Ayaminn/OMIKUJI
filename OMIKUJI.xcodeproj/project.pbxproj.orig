@@ -112,7 +112,6 @@
 		D800CEB41C5CAAA100C23E3B /* 古来100.png in Resources */ = {isa = PBXBuildFile; fileRef = D800CE501C5CAAA100C23E3B /* 古来100.png */; };
 		D800CEB61C5CE63200C23E3B /* 古来 in Resources */ = {isa = PBXBuildFile; fileRef = D800CEB51C5CE63200C23E3B /* 古来 */; };
 		D81B89D01C58BA70005030F2 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B89CF1C58BA70005030F2 /* ResultViewController.swift */; };
-		D84097CF1C623B08004C9A72 /* 12540106_916115085152005_2121673590_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D84097CE1C623B08004C9A72 /* 12540106_916115085152005_2121673590_n.jpg */; };
 		D85564701C39110A00028901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D855646F1C39110A00028901 /* AppDelegate.swift */; };
 		D85564721C39110A00028901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85564711C39110A00028901 /* ViewController.swift */; };
 		D85564751C39110A00028901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85564731C39110A00028901 /* Main.storyboard */; };
@@ -243,7 +242,6 @@
 		D800CE501C5CAAA100C23E3B /* 古来100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "古来100.png"; path = "古来/古来100.png"; sourceTree = "<group>"; };
 		D800CEB51C5CE63200C23E3B /* 古来 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "古来"; sourceTree = "<group>"; };
 		D81B89CF1C58BA70005030F2 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
-		D84097CE1C623B08004C9A72 /* 12540106_916115085152005_2121673590_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12540106_916115085152005_2121673590_n.jpg; sourceTree = "<group>"; };
 		D855646A1C39110A00028901 /* OMIKUJI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMIKUJI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D855646E1C39110A00028901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D855646F1C39110A00028901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -416,7 +414,6 @@
 				D858B91C1C535C9A00C5B9B0 /* 現代menu.png */,
 				D858B9181C535C1500C5B9B0 /* 古来menu.png */,
 				D858B9161C535A2900C5B9B0 /* top.png */,
-				D84097CE1C623B08004C9A72 /* 12540106_916115085152005_2121673590_n.jpg */,
 				815875DE1C5E398B00821609 /* Images */,
 				D8FC56791C4A3A7100436299 /* Images.xcassets */,
 				D8A760DF1C4C83E90063BADF /* appicon.png */,
@@ -637,7 +634,6 @@
 				D858B9171C535A2900C5B9B0 /* top.png in Resources */,
 				D800CE821C5CAAA100C23E3B /* 古来50.png in Resources */,
 				D800CEB31C5CAAA100C23E3B /* 古来99.png in Resources */,
-				D84097CF1C623B08004C9A72 /* 12540106_916115085152005_2121673590_n.jpg in Resources */,
 				D800CEAC1C5CAAA100C23E3B /* 古来92.png in Resources */,
 				D800CE711C5CAAA100C23E3B /* 古来33.png in Resources */,
 				D800CEB11C5CAAA100C23E3B /* 古来97.png in Resources */,
