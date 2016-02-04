@@ -112,6 +112,106 @@
 		D800CEB41C5CAAA100C23E3B /* 古来100.png in Resources */ = {isa = PBXBuildFile; fileRef = D800CE501C5CAAA100C23E3B /* 古来100.png */; };
 		D800CEB61C5CE63200C23E3B /* 古来 in Resources */ = {isa = PBXBuildFile; fileRef = D800CEB51C5CE63200C23E3B /* 古来 */; };
 		D81B89D01C58BA70005030F2 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B89CF1C58BA70005030F2 /* ResultViewController.swift */; };
+		D835355E1C6354020067527E /* 現代1.png in Resources */ = {isa = PBXBuildFile; fileRef = D83534FA1C6354010067527E /* 現代1.png */; };
+		D835355F1C6354020067527E /* 現代2.png in Resources */ = {isa = PBXBuildFile; fileRef = D83534FB1C6354010067527E /* 現代2.png */; };
+		D83535601C6354020067527E /* 現代3.png in Resources */ = {isa = PBXBuildFile; fileRef = D83534FC1C6354010067527E /* 現代3.png */; };
+		D83535611C6354020067527E /* 現代4.png in Resources */ = {isa = PBXBuildFile; fileRef = D83534FD1C6354010067527E /* 現代4.png */; };
+		D83535621C6354020067527E /* 現代5.png in Resources */ = {isa = PBXBuildFile; fileRef = D83534FE1C6354010067527E /* 現代5.png */; };
+		D83535631C6354020067527E /* 現代6.png in Resources */ = {isa = PBXBuildFile; fileRef = D83534FF1C6354010067527E /* 現代6.png */; };
+		D83535641C6354020067527E /* 現代7.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535001C6354010067527E /* 現代7.png */; };
+		D83535651C6354020067527E /* 現代8.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535011C6354010067527E /* 現代8.png */; };
+		D83535661C6354020067527E /* 現代9.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535021C6354010067527E /* 現代9.png */; };
+		D83535671C6354020067527E /* 現代10.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535031C6354010067527E /* 現代10.png */; };
+		D83535681C6354020067527E /* 現代11.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535041C6354010067527E /* 現代11.png */; };
+		D83535691C6354020067527E /* 現代12.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535051C6354010067527E /* 現代12.png */; };
+		D835356A1C6354020067527E /* 現代13.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535061C6354010067527E /* 現代13.png */; };
+		D835356B1C6354020067527E /* 現代14.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535071C6354010067527E /* 現代14.png */; };
+		D835356C1C6354020067527E /* 現代15.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535081C6354010067527E /* 現代15.png */; };
+		D835356D1C6354020067527E /* 現代16.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535091C6354010067527E /* 現代16.png */; };
+		D835356E1C6354020067527E /* 現代17.png in Resources */ = {isa = PBXBuildFile; fileRef = D835350A1C6354010067527E /* 現代17.png */; };
+		D835356F1C6354020067527E /* 現代18.png in Resources */ = {isa = PBXBuildFile; fileRef = D835350B1C6354010067527E /* 現代18.png */; };
+		D83535701C6354020067527E /* 現代19.png in Resources */ = {isa = PBXBuildFile; fileRef = D835350C1C6354010067527E /* 現代19.png */; };
+		D83535711C6354020067527E /* 現代20.png in Resources */ = {isa = PBXBuildFile; fileRef = D835350D1C6354010067527E /* 現代20.png */; };
+		D83535721C6354020067527E /* 現代21.png in Resources */ = {isa = PBXBuildFile; fileRef = D835350E1C6354010067527E /* 現代21.png */; };
+		D83535731C6354020067527E /* 現代22.png in Resources */ = {isa = PBXBuildFile; fileRef = D835350F1C6354010067527E /* 現代22.png */; };
+		D83535741C6354020067527E /* 現代23.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535101C6354010067527E /* 現代23.png */; };
+		D83535751C6354020067527E /* 現代24.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535111C6354010067527E /* 現代24.png */; };
+		D83535761C6354020067527E /* 現代25.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535121C6354010067527E /* 現代25.png */; };
+		D83535771C6354020067527E /* 現代26.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535131C6354010067527E /* 現代26.png */; };
+		D83535781C6354020067527E /* 現代27.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535141C6354010067527E /* 現代27.png */; };
+		D83535791C6354020067527E /* 現代28.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535151C6354010067527E /* 現代28.png */; };
+		D835357A1C6354020067527E /* 現代29.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535161C6354010067527E /* 現代29.png */; };
+		D835357B1C6354020067527E /* 現代30.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535171C6354010067527E /* 現代30.png */; };
+		D835357C1C6354020067527E /* 現代31.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535181C6354010067527E /* 現代31.png */; };
+		D835357D1C6354020067527E /* 現代32.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535191C6354010067527E /* 現代32.png */; };
+		D835357E1C6354020067527E /* 現代33.png in Resources */ = {isa = PBXBuildFile; fileRef = D835351A1C6354010067527E /* 現代33.png */; };
+		D835357F1C6354020067527E /* 現代34.png in Resources */ = {isa = PBXBuildFile; fileRef = D835351B1C6354010067527E /* 現代34.png */; };
+		D83535801C6354020067527E /* 現代35.png in Resources */ = {isa = PBXBuildFile; fileRef = D835351C1C6354010067527E /* 現代35.png */; };
+		D83535811C6354020067527E /* 現代36.png in Resources */ = {isa = PBXBuildFile; fileRef = D835351D1C6354010067527E /* 現代36.png */; };
+		D83535821C6354020067527E /* 現代37.png in Resources */ = {isa = PBXBuildFile; fileRef = D835351E1C6354010067527E /* 現代37.png */; };
+		D83535831C6354020067527E /* 現代38.png in Resources */ = {isa = PBXBuildFile; fileRef = D835351F1C6354010067527E /* 現代38.png */; };
+		D83535841C6354020067527E /* 現代39.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535201C6354010067527E /* 現代39.png */; };
+		D83535851C6354020067527E /* 現代40.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535211C6354010067527E /* 現代40.png */; };
+		D83535861C6354020067527E /* 現代41.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535221C6354010067527E /* 現代41.png */; };
+		D83535871C6354020067527E /* 現代42.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535231C6354010067527E /* 現代42.png */; };
+		D83535881C6354020067527E /* 現代43.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535241C6354010067527E /* 現代43.png */; };
+		D83535891C6354020067527E /* 現代44.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535251C6354010067527E /* 現代44.png */; };
+		D835358A1C6354020067527E /* 現代45.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535261C6354010067527E /* 現代45.png */; };
+		D835358B1C6354020067527E /* 現代46.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535271C6354010067527E /* 現代46.png */; };
+		D835358C1C6354020067527E /* 現代47.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535281C6354010067527E /* 現代47.png */; };
+		D835358D1C6354020067527E /* 現代48.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535291C6354010067527E /* 現代48.png */; };
+		D835358E1C6354020067527E /* 現代49.png in Resources */ = {isa = PBXBuildFile; fileRef = D835352A1C6354010067527E /* 現代49.png */; };
+		D835358F1C6354020067527E /* 現代50.png in Resources */ = {isa = PBXBuildFile; fileRef = D835352B1C6354010067527E /* 現代50.png */; };
+		D83535901C6354020067527E /* 現代51.png in Resources */ = {isa = PBXBuildFile; fileRef = D835352C1C6354010067527E /* 現代51.png */; };
+		D83535911C6354020067527E /* 現代52.png in Resources */ = {isa = PBXBuildFile; fileRef = D835352D1C6354010067527E /* 現代52.png */; };
+		D83535921C6354020067527E /* 現代53.png in Resources */ = {isa = PBXBuildFile; fileRef = D835352E1C6354010067527E /* 現代53.png */; };
+		D83535931C6354020067527E /* 現代54.png in Resources */ = {isa = PBXBuildFile; fileRef = D835352F1C6354010067527E /* 現代54.png */; };
+		D83535941C6354020067527E /* 現代55.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535301C6354010067527E /* 現代55.png */; };
+		D83535951C6354020067527E /* 現代56.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535311C6354010067527E /* 現代56.png */; };
+		D83535961C6354020067527E /* 現代57.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535321C6354010067527E /* 現代57.png */; };
+		D83535971C6354020067527E /* 現代58.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535331C6354010067527E /* 現代58.png */; };
+		D83535981C6354020067527E /* 現代59.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535341C6354010067527E /* 現代59.png */; };
+		D83535991C6354020067527E /* 現代60.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535351C6354010067527E /* 現代60.png */; };
+		D835359A1C6354020067527E /* 現代61.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535361C6354010067527E /* 現代61.png */; };
+		D835359B1C6354020067527E /* 現代62.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535371C6354010067527E /* 現代62.png */; };
+		D835359C1C6354020067527E /* 現代63.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535381C6354010067527E /* 現代63.png */; };
+		D835359D1C6354020067527E /* 現代64.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535391C6354010067527E /* 現代64.png */; };
+		D835359E1C6354020067527E /* 現代65.png in Resources */ = {isa = PBXBuildFile; fileRef = D835353A1C6354010067527E /* 現代65.png */; };
+		D835359F1C6354020067527E /* 現代66.png in Resources */ = {isa = PBXBuildFile; fileRef = D835353B1C6354010067527E /* 現代66.png */; };
+		D83535A01C6354020067527E /* 現代67.png in Resources */ = {isa = PBXBuildFile; fileRef = D835353C1C6354010067527E /* 現代67.png */; };
+		D83535A11C6354020067527E /* 現代68.png in Resources */ = {isa = PBXBuildFile; fileRef = D835353D1C6354010067527E /* 現代68.png */; };
+		D83535A21C6354020067527E /* 現代69.png in Resources */ = {isa = PBXBuildFile; fileRef = D835353E1C6354010067527E /* 現代69.png */; };
+		D83535A31C6354020067527E /* 現代70.png in Resources */ = {isa = PBXBuildFile; fileRef = D835353F1C6354010067527E /* 現代70.png */; };
+		D83535A41C6354020067527E /* 現代71.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535401C6354010067527E /* 現代71.png */; };
+		D83535A51C6354020067527E /* 現代72.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535411C6354010067527E /* 現代72.png */; };
+		D83535A61C6354020067527E /* 現代73.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535421C6354010067527E /* 現代73.png */; };
+		D83535A71C6354020067527E /* 現代74.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535431C6354010067527E /* 現代74.png */; };
+		D83535A81C6354020067527E /* 現代75.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535441C6354010067527E /* 現代75.png */; };
+		D83535A91C6354020067527E /* 現代76.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535451C6354010067527E /* 現代76.png */; };
+		D83535AA1C6354020067527E /* 現代77.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535461C6354010067527E /* 現代77.png */; };
+		D83535AB1C6354020067527E /* 現代78.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535471C6354010067527E /* 現代78.png */; };
+		D83535AC1C6354020067527E /* 現代79.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535481C6354010067527E /* 現代79.png */; };
+		D83535AD1C6354020067527E /* 現代80.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535491C6354010067527E /* 現代80.png */; };
+		D83535AE1C6354020067527E /* 現代81.png in Resources */ = {isa = PBXBuildFile; fileRef = D835354A1C6354010067527E /* 現代81.png */; };
+		D83535AF1C6354020067527E /* 現代82.png in Resources */ = {isa = PBXBuildFile; fileRef = D835354B1C6354010067527E /* 現代82.png */; };
+		D83535B01C6354020067527E /* 現代83.png in Resources */ = {isa = PBXBuildFile; fileRef = D835354C1C6354010067527E /* 現代83.png */; };
+		D83535B11C6354020067527E /* 現代84.png in Resources */ = {isa = PBXBuildFile; fileRef = D835354D1C6354010067527E /* 現代84.png */; };
+		D83535B21C6354020067527E /* 現代85.png in Resources */ = {isa = PBXBuildFile; fileRef = D835354E1C6354020067527E /* 現代85.png */; };
+		D83535B31C6354020067527E /* 現代86.png in Resources */ = {isa = PBXBuildFile; fileRef = D835354F1C6354020067527E /* 現代86.png */; };
+		D83535B41C6354020067527E /* 現代87.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535501C6354020067527E /* 現代87.png */; };
+		D83535B51C6354020067527E /* 現代88.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535511C6354020067527E /* 現代88.png */; };
+		D83535B61C6354020067527E /* 現代89.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535521C6354020067527E /* 現代89.png */; };
+		D83535B71C6354020067527E /* 現代90.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535531C6354020067527E /* 現代90.png */; };
+		D83535B81C6354020067527E /* 現代91.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535541C6354020067527E /* 現代91.png */; };
+		D83535B91C6354020067527E /* 現代92.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535551C6354020067527E /* 現代92.png */; };
+		D83535BA1C6354020067527E /* 現代93.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535561C6354020067527E /* 現代93.png */; };
+		D83535BB1C6354020067527E /* 現代94.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535571C6354020067527E /* 現代94.png */; };
+		D83535BC1C6354020067527E /* 現代95.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535581C6354020067527E /* 現代95.png */; };
+		D83535BD1C6354020067527E /* 現代96.png in Resources */ = {isa = PBXBuildFile; fileRef = D83535591C6354020067527E /* 現代96.png */; };
+		D83535BE1C6354020067527E /* 現代97.png in Resources */ = {isa = PBXBuildFile; fileRef = D835355A1C6354020067527E /* 現代97.png */; };
+		D83535BF1C6354020067527E /* 現代98.png in Resources */ = {isa = PBXBuildFile; fileRef = D835355B1C6354020067527E /* 現代98.png */; };
+		D83535C01C6354020067527E /* 現代99.png in Resources */ = {isa = PBXBuildFile; fileRef = D835355C1C6354020067527E /* 現代99.png */; };
+		D83535C11C6354020067527E /* 現代100.png in Resources */ = {isa = PBXBuildFile; fileRef = D835355D1C6354020067527E /* 現代100.png */; };
 		D84097CF1C623B08004C9A72 /* 12540106_916115085152005_2121673590_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D84097CE1C623B08004C9A72 /* 12540106_916115085152005_2121673590_n.jpg */; };
 		D85564701C39110A00028901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D855646F1C39110A00028901 /* AppDelegate.swift */; };
 		D85564721C39110A00028901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85564711C39110A00028901 /* ViewController.swift */; };
@@ -275,6 +375,106 @@
 		D800CE501C5CAAA100C23E3B /* 古来100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "古来100.png"; path = "古来/古来100.png"; sourceTree = "<group>"; };
 		D800CEB51C5CE63200C23E3B /* 古来 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "古来"; sourceTree = "<group>"; };
 		D81B89CF1C58BA70005030F2 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
+		D83534FA1C6354010067527E /* 現代1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代1.png"; sourceTree = "<group>"; };
+		D83534FB1C6354010067527E /* 現代2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代2.png"; sourceTree = "<group>"; };
+		D83534FC1C6354010067527E /* 現代3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代3.png"; sourceTree = "<group>"; };
+		D83534FD1C6354010067527E /* 現代4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代4.png"; sourceTree = "<group>"; };
+		D83534FE1C6354010067527E /* 現代5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代5.png"; sourceTree = "<group>"; };
+		D83534FF1C6354010067527E /* 現代6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代6.png"; sourceTree = "<group>"; };
+		D83535001C6354010067527E /* 現代7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代7.png"; sourceTree = "<group>"; };
+		D83535011C6354010067527E /* 現代8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代8.png"; sourceTree = "<group>"; };
+		D83535021C6354010067527E /* 現代9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代9.png"; sourceTree = "<group>"; };
+		D83535031C6354010067527E /* 現代10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代10.png"; sourceTree = "<group>"; };
+		D83535041C6354010067527E /* 現代11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代11.png"; sourceTree = "<group>"; };
+		D83535051C6354010067527E /* 現代12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代12.png"; sourceTree = "<group>"; };
+		D83535061C6354010067527E /* 現代13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代13.png"; sourceTree = "<group>"; };
+		D83535071C6354010067527E /* 現代14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代14.png"; sourceTree = "<group>"; };
+		D83535081C6354010067527E /* 現代15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代15.png"; sourceTree = "<group>"; };
+		D83535091C6354010067527E /* 現代16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代16.png"; sourceTree = "<group>"; };
+		D835350A1C6354010067527E /* 現代17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代17.png"; sourceTree = "<group>"; };
+		D835350B1C6354010067527E /* 現代18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代18.png"; sourceTree = "<group>"; };
+		D835350C1C6354010067527E /* 現代19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代19.png"; sourceTree = "<group>"; };
+		D835350D1C6354010067527E /* 現代20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代20.png"; sourceTree = "<group>"; };
+		D835350E1C6354010067527E /* 現代21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代21.png"; sourceTree = "<group>"; };
+		D835350F1C6354010067527E /* 現代22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代22.png"; sourceTree = "<group>"; };
+		D83535101C6354010067527E /* 現代23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代23.png"; sourceTree = "<group>"; };
+		D83535111C6354010067527E /* 現代24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代24.png"; sourceTree = "<group>"; };
+		D83535121C6354010067527E /* 現代25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代25.png"; sourceTree = "<group>"; };
+		D83535131C6354010067527E /* 現代26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代26.png"; sourceTree = "<group>"; };
+		D83535141C6354010067527E /* 現代27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代27.png"; sourceTree = "<group>"; };
+		D83535151C6354010067527E /* 現代28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代28.png"; sourceTree = "<group>"; };
+		D83535161C6354010067527E /* 現代29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代29.png"; sourceTree = "<group>"; };
+		D83535171C6354010067527E /* 現代30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代30.png"; sourceTree = "<group>"; };
+		D83535181C6354010067527E /* 現代31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代31.png"; sourceTree = "<group>"; };
+		D83535191C6354010067527E /* 現代32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代32.png"; sourceTree = "<group>"; };
+		D835351A1C6354010067527E /* 現代33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代33.png"; sourceTree = "<group>"; };
+		D835351B1C6354010067527E /* 現代34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代34.png"; sourceTree = "<group>"; };
+		D835351C1C6354010067527E /* 現代35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代35.png"; sourceTree = "<group>"; };
+		D835351D1C6354010067527E /* 現代36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代36.png"; sourceTree = "<group>"; };
+		D835351E1C6354010067527E /* 現代37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代37.png"; sourceTree = "<group>"; };
+		D835351F1C6354010067527E /* 現代38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代38.png"; sourceTree = "<group>"; };
+		D83535201C6354010067527E /* 現代39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代39.png"; sourceTree = "<group>"; };
+		D83535211C6354010067527E /* 現代40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代40.png"; sourceTree = "<group>"; };
+		D83535221C6354010067527E /* 現代41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代41.png"; sourceTree = "<group>"; };
+		D83535231C6354010067527E /* 現代42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代42.png"; sourceTree = "<group>"; };
+		D83535241C6354010067527E /* 現代43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代43.png"; sourceTree = "<group>"; };
+		D83535251C6354010067527E /* 現代44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代44.png"; sourceTree = "<group>"; };
+		D83535261C6354010067527E /* 現代45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代45.png"; sourceTree = "<group>"; };
+		D83535271C6354010067527E /* 現代46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代46.png"; sourceTree = "<group>"; };
+		D83535281C6354010067527E /* 現代47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代47.png"; sourceTree = "<group>"; };
+		D83535291C6354010067527E /* 現代48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代48.png"; sourceTree = "<group>"; };
+		D835352A1C6354010067527E /* 現代49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代49.png"; sourceTree = "<group>"; };
+		D835352B1C6354010067527E /* 現代50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代50.png"; sourceTree = "<group>"; };
+		D835352C1C6354010067527E /* 現代51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代51.png"; sourceTree = "<group>"; };
+		D835352D1C6354010067527E /* 現代52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代52.png"; sourceTree = "<group>"; };
+		D835352E1C6354010067527E /* 現代53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代53.png"; sourceTree = "<group>"; };
+		D835352F1C6354010067527E /* 現代54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代54.png"; sourceTree = "<group>"; };
+		D83535301C6354010067527E /* 現代55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代55.png"; sourceTree = "<group>"; };
+		D83535311C6354010067527E /* 現代56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代56.png"; sourceTree = "<group>"; };
+		D83535321C6354010067527E /* 現代57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代57.png"; sourceTree = "<group>"; };
+		D83535331C6354010067527E /* 現代58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代58.png"; sourceTree = "<group>"; };
+		D83535341C6354010067527E /* 現代59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代59.png"; sourceTree = "<group>"; };
+		D83535351C6354010067527E /* 現代60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代60.png"; sourceTree = "<group>"; };
+		D83535361C6354010067527E /* 現代61.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代61.png"; sourceTree = "<group>"; };
+		D83535371C6354010067527E /* 現代62.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代62.png"; sourceTree = "<group>"; };
+		D83535381C6354010067527E /* 現代63.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代63.png"; sourceTree = "<group>"; };
+		D83535391C6354010067527E /* 現代64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代64.png"; sourceTree = "<group>"; };
+		D835353A1C6354010067527E /* 現代65.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代65.png"; sourceTree = "<group>"; };
+		D835353B1C6354010067527E /* 現代66.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代66.png"; sourceTree = "<group>"; };
+		D835353C1C6354010067527E /* 現代67.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代67.png"; sourceTree = "<group>"; };
+		D835353D1C6354010067527E /* 現代68.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代68.png"; sourceTree = "<group>"; };
+		D835353E1C6354010067527E /* 現代69.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代69.png"; sourceTree = "<group>"; };
+		D835353F1C6354010067527E /* 現代70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代70.png"; sourceTree = "<group>"; };
+		D83535401C6354010067527E /* 現代71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代71.png"; sourceTree = "<group>"; };
+		D83535411C6354010067527E /* 現代72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代72.png"; sourceTree = "<group>"; };
+		D83535421C6354010067527E /* 現代73.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代73.png"; sourceTree = "<group>"; };
+		D83535431C6354010067527E /* 現代74.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代74.png"; sourceTree = "<group>"; };
+		D83535441C6354010067527E /* 現代75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代75.png"; sourceTree = "<group>"; };
+		D83535451C6354010067527E /* 現代76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代76.png"; sourceTree = "<group>"; };
+		D83535461C6354010067527E /* 現代77.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代77.png"; sourceTree = "<group>"; };
+		D83535471C6354010067527E /* 現代78.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代78.png"; sourceTree = "<group>"; };
+		D83535481C6354010067527E /* 現代79.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代79.png"; sourceTree = "<group>"; };
+		D83535491C6354010067527E /* 現代80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代80.png"; sourceTree = "<group>"; };
+		D835354A1C6354010067527E /* 現代81.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代81.png"; sourceTree = "<group>"; };
+		D835354B1C6354010067527E /* 現代82.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代82.png"; sourceTree = "<group>"; };
+		D835354C1C6354010067527E /* 現代83.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代83.png"; sourceTree = "<group>"; };
+		D835354D1C6354010067527E /* 現代84.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代84.png"; sourceTree = "<group>"; };
+		D835354E1C6354020067527E /* 現代85.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代85.png"; sourceTree = "<group>"; };
+		D835354F1C6354020067527E /* 現代86.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代86.png"; sourceTree = "<group>"; };
+		D83535501C6354020067527E /* 現代87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代87.png"; sourceTree = "<group>"; };
+		D83535511C6354020067527E /* 現代88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代88.png"; sourceTree = "<group>"; };
+		D83535521C6354020067527E /* 現代89.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代89.png"; sourceTree = "<group>"; };
+		D83535531C6354020067527E /* 現代90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代90.png"; sourceTree = "<group>"; };
+		D83535541C6354020067527E /* 現代91.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代91.png"; sourceTree = "<group>"; };
+		D83535551C6354020067527E /* 現代92.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代92.png"; sourceTree = "<group>"; };
+		D83535561C6354020067527E /* 現代93.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代93.png"; sourceTree = "<group>"; };
+		D83535571C6354020067527E /* 現代94.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代94.png"; sourceTree = "<group>"; };
+		D83535581C6354020067527E /* 現代95.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代95.png"; sourceTree = "<group>"; };
+		D83535591C6354020067527E /* 現代96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代96.png"; sourceTree = "<group>"; };
+		D835355A1C6354020067527E /* 現代97.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代97.png"; sourceTree = "<group>"; };
+		D835355B1C6354020067527E /* 現代98.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代98.png"; sourceTree = "<group>"; };
+		D835355C1C6354020067527E /* 現代99.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代99.png"; sourceTree = "<group>"; };
+		D835355D1C6354020067527E /* 現代100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代100.png"; sourceTree = "<group>"; };
 		D84097CE1C623B08004C9A72 /* 12540106_916115085152005_2121673590_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12540106_916115085152005_2121673590_n.jpg; sourceTree = "<group>"; };
 		D855646A1C39110A00028901 /* OMIKUJI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMIKUJI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D855646E1C39110A00028901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -507,6 +707,106 @@
 				D8F61A291C6248B400F1F739 /* 青春２８.png */,
 				D8F61A2A1C6248B400F1F739 /* 青春２９.png */,
 				D8F61A2B1C6248B400F1F739 /* 青春３０.png */,
+				D83534FA1C6354010067527E /* 現代1.png */,
+				D83534FB1C6354010067527E /* 現代2.png */,
+				D83534FC1C6354010067527E /* 現代3.png */,
+				D83534FD1C6354010067527E /* 現代4.png */,
+				D83534FE1C6354010067527E /* 現代5.png */,
+				D83534FF1C6354010067527E /* 現代6.png */,
+				D83535001C6354010067527E /* 現代7.png */,
+				D83535011C6354010067527E /* 現代8.png */,
+				D83535021C6354010067527E /* 現代9.png */,
+				D83535031C6354010067527E /* 現代10.png */,
+				D83535041C6354010067527E /* 現代11.png */,
+				D83535051C6354010067527E /* 現代12.png */,
+				D83535061C6354010067527E /* 現代13.png */,
+				D83535071C6354010067527E /* 現代14.png */,
+				D83535081C6354010067527E /* 現代15.png */,
+				D83535091C6354010067527E /* 現代16.png */,
+				D835350A1C6354010067527E /* 現代17.png */,
+				D835350B1C6354010067527E /* 現代18.png */,
+				D835350C1C6354010067527E /* 現代19.png */,
+				D835350D1C6354010067527E /* 現代20.png */,
+				D835350E1C6354010067527E /* 現代21.png */,
+				D835350F1C6354010067527E /* 現代22.png */,
+				D83535101C6354010067527E /* 現代23.png */,
+				D83535111C6354010067527E /* 現代24.png */,
+				D83535121C6354010067527E /* 現代25.png */,
+				D83535131C6354010067527E /* 現代26.png */,
+				D83535141C6354010067527E /* 現代27.png */,
+				D83535151C6354010067527E /* 現代28.png */,
+				D83535161C6354010067527E /* 現代29.png */,
+				D83535171C6354010067527E /* 現代30.png */,
+				D83535181C6354010067527E /* 現代31.png */,
+				D83535191C6354010067527E /* 現代32.png */,
+				D835351A1C6354010067527E /* 現代33.png */,
+				D835351B1C6354010067527E /* 現代34.png */,
+				D835351C1C6354010067527E /* 現代35.png */,
+				D835351D1C6354010067527E /* 現代36.png */,
+				D835351E1C6354010067527E /* 現代37.png */,
+				D835351F1C6354010067527E /* 現代38.png */,
+				D83535201C6354010067527E /* 現代39.png */,
+				D83535211C6354010067527E /* 現代40.png */,
+				D83535221C6354010067527E /* 現代41.png */,
+				D83535231C6354010067527E /* 現代42.png */,
+				D83535241C6354010067527E /* 現代43.png */,
+				D83535251C6354010067527E /* 現代44.png */,
+				D83535261C6354010067527E /* 現代45.png */,
+				D83535271C6354010067527E /* 現代46.png */,
+				D83535281C6354010067527E /* 現代47.png */,
+				D83535291C6354010067527E /* 現代48.png */,
+				D835352A1C6354010067527E /* 現代49.png */,
+				D835352B1C6354010067527E /* 現代50.png */,
+				D835352C1C6354010067527E /* 現代51.png */,
+				D835352D1C6354010067527E /* 現代52.png */,
+				D835352E1C6354010067527E /* 現代53.png */,
+				D835352F1C6354010067527E /* 現代54.png */,
+				D83535301C6354010067527E /* 現代55.png */,
+				D83535311C6354010067527E /* 現代56.png */,
+				D83535321C6354010067527E /* 現代57.png */,
+				D83535331C6354010067527E /* 現代58.png */,
+				D83535341C6354010067527E /* 現代59.png */,
+				D83535351C6354010067527E /* 現代60.png */,
+				D83535361C6354010067527E /* 現代61.png */,
+				D83535371C6354010067527E /* 現代62.png */,
+				D83535381C6354010067527E /* 現代63.png */,
+				D83535391C6354010067527E /* 現代64.png */,
+				D835353A1C6354010067527E /* 現代65.png */,
+				D835353B1C6354010067527E /* 現代66.png */,
+				D835353C1C6354010067527E /* 現代67.png */,
+				D835353D1C6354010067527E /* 現代68.png */,
+				D835353E1C6354010067527E /* 現代69.png */,
+				D835353F1C6354010067527E /* 現代70.png */,
+				D83535401C6354010067527E /* 現代71.png */,
+				D83535411C6354010067527E /* 現代72.png */,
+				D83535421C6354010067527E /* 現代73.png */,
+				D83535431C6354010067527E /* 現代74.png */,
+				D83535441C6354010067527E /* 現代75.png */,
+				D83535451C6354010067527E /* 現代76.png */,
+				D83535461C6354010067527E /* 現代77.png */,
+				D83535471C6354010067527E /* 現代78.png */,
+				D83535481C6354010067527E /* 現代79.png */,
+				D83535491C6354010067527E /* 現代80.png */,
+				D835354A1C6354010067527E /* 現代81.png */,
+				D835354B1C6354010067527E /* 現代82.png */,
+				D835354C1C6354010067527E /* 現代83.png */,
+				D835354D1C6354010067527E /* 現代84.png */,
+				D835354E1C6354020067527E /* 現代85.png */,
+				D835354F1C6354020067527E /* 現代86.png */,
+				D83535501C6354020067527E /* 現代87.png */,
+				D83535511C6354020067527E /* 現代88.png */,
+				D83535521C6354020067527E /* 現代89.png */,
+				D83535531C6354020067527E /* 現代90.png */,
+				D83535541C6354020067527E /* 現代91.png */,
+				D83535551C6354020067527E /* 現代92.png */,
+				D83535561C6354020067527E /* 現代93.png */,
+				D83535571C6354020067527E /* 現代94.png */,
+				D83535581C6354020067527E /* 現代95.png */,
+				D83535591C6354020067527E /* 現代96.png */,
+				D835355A1C6354020067527E /* 現代97.png */,
+				D835355B1C6354020067527E /* 現代98.png */,
+				D835355C1C6354020067527E /* 現代99.png */,
+				D835355D1C6354020067527E /* 現代100.png */,
 				D858B91A1C535C9A00C5B9B0 /* menu.png */,
 				D858B91B1C535C9A00C5B9B0 /* menu青春.png */,
 				D858B91C1C535C9A00C5B9B0 /* 現代menu.png */,
@@ -643,6 +943,8 @@
 				D8F61A421C6248B400F1F739 /* 青春２３.png in Resources */,
 				D8F61A431C6248B400F1F739 /* 青春２４.png in Resources */,
 				D800CE811C5CAAA100C23E3B /* 古来49.png in Resources */,
+				D83535B41C6354020067527E /* 現代87.png in Resources */,
+				D83535AD1C6354020067527E /* 現代80.png in Resources */,
 				D800CE7B1C5CAAA100C23E3B /* 古来43.png in Resources */,
 				D8F61A351C6248B400F1F739 /* 青春１０.png in Resources */,
 				D8F61A441C6248B400F1F739 /* 青春２５.png in Resources */,
@@ -650,7 +952,11 @@
 				D8A760E01C4C83E90063BADF /* appicon.png in Resources */,
 				D800CE5F1C5CAAA100C23E3B /* 古来15.png in Resources */,
 				D800CE551C5CAAA100C23E3B /* 古来5.png in Resources */,
+				D835356E1C6354020067527E /* 現代17.png in Resources */,
+				D83535651C6354020067527E /* 現代8.png in Resources */,
 				D800CEA91C5CAAA100C23E3B /* 古来89.png in Resources */,
+				D83535731C6354020067527E /* 現代22.png in Resources */,
+				D83535981C6354020067527E /* 現代59.png in Resources */,
 				D800CEAE1C5CAAA100C23E3B /* 古来94.png in Resources */,
 				D800CEA01C5CAAA100C23E3B /* 古来80.png in Resources */,
 				D8F61A3B1C6248B400F1F739 /* 青春１６.png in Resources */,
@@ -658,66 +964,112 @@
 				D800CE851C5CAAA100C23E3B /* 古来53.png in Resources */,
 				D800CE631C5CAAA100C23E3B /* 古来19.png in Resources */,
 				D8F61A2C1C6248B400F1F739 /* 青春１.png in Resources */,
+				D83535841C6354020067527E /* 現代39.png in Resources */,
 				D800CEAA1C5CAAA100C23E3B /* 古来90.png in Resources */,
 				D800CE7C1C5CAAA100C23E3B /* 古来44.png in Resources */,
+				D83535941C6354020067527E /* 現代55.png in Resources */,
+				D83535901C6354020067527E /* 現代51.png in Resources */,
+				D835356C1C6354020067527E /* 現代15.png in Resources */,
+				D83535C01C6354020067527E /* 現代99.png in Resources */,
 				D800CE5C1C5CAAA100C23E3B /* 古来12.png in Resources */,
+				D83535721C6354020067527E /* 現代21.png in Resources */,
+				D83535891C6354020067527E /* 現代44.png in Resources */,
+				D83535BA1C6354020067527E /* 現代93.png in Resources */,
 				D800CE8F1C5CAAA100C23E3B /* 古来63.png in Resources */,
+				D835359E1C6354020067527E /* 現代65.png in Resources */,
+				D83535931C6354020067527E /* 現代54.png in Resources */,
+				D83535A01C6354020067527E /* 現代67.png in Resources */,
 				D800CEA71C5CAAA100C23E3B /* 古来87.png in Resources */,
 				D800CE731C5CAAA100C23E3B /* 古来35.png in Resources */,
 				811360C41C5F7E7B00FDD14E /* oneday-onetime.png in Resources */,
 				D8F61A331C6248B400F1F739 /* 青春８.png in Resources */,
+				D835359D1C6354020067527E /* 現代64.png in Resources */,
 				D8F61A391C6248B400F1F739 /* 青春１４.png in Resources */,
 				D8F61A2E1C6248B400F1F739 /* 青春３.png in Resources */,
+				D83535AB1C6354020067527E /* 現代78.png in Resources */,
 				D800CE6A1C5CAAA100C23E3B /* 古来26.png in Resources */,
+				D83535701C6354020067527E /* 現代19.png in Resources */,
 				D800CEA31C5CAAA100C23E3B /* 古来83.png in Resources */,
+				D83535BE1C6354020067527E /* 現代97.png in Resources */,
 				D800CEA51C5CAAA100C23E3B /* 古来85.png in Resources */,
+				D83535A31C6354020067527E /* 現代70.png in Resources */,
+				D83535B61C6354020067527E /* 現代89.png in Resources */,
 				D800CE661C5CAAA100C23E3B /* 古来22.png in Resources */,
+				D835356D1C6354020067527E /* 現代16.png in Resources */,
+				D83535B11C6354020067527E /* 現代84.png in Resources */,
+				D83535711C6354020067527E /* 現代20.png in Resources */,
+				D835358E1C6354020067527E /* 現代49.png in Resources */,
 				D800CE6F1C5CAAA100C23E3B /* 古来31.png in Resources */,
 				D800CE841C5CAAA100C23E3B /* 古来52.png in Resources */,
+				D83535BF1C6354020067527E /* 現代98.png in Resources */,
 				D800CE7E1C5CAAA100C23E3B /* 古来46.png in Resources */,
 				D800CE9F1C5CAAA100C23E3B /* 古来79.png in Resources */,
 				D800CE641C5CAAA100C23E3B /* 古来20.png in Resources */,
 				D8F61A3C1C6248B400F1F739 /* 青春１７.png in Resources */,
 				D800CE801C5CAAA100C23E3B /* 古来48.png in Resources */,
 				D8F61A2D1C6248B400F1F739 /* 青春２.png in Resources */,
+				D835357D1C6354020067527E /* 現代32.png in Resources */,
+				D835358F1C6354020067527E /* 現代50.png in Resources */,
+				D835359B1C6354020067527E /* 現代62.png in Resources */,
+				D83535881C6354020067527E /* 現代43.png in Resources */,
 				D8FC567A1C4A3A7100436299 /* Images.xcassets in Resources */,
+				D835355E1C6354020067527E /* 現代1.png in Resources */,
+				D83535741C6354020067527E /* 現代23.png in Resources */,
 				D8F61A301C6248B400F1F739 /* 青春５.png in Resources */,
 				D800CE791C5CAAA100C23E3B /* 古来41.png in Resources */,
+				D83535BB1C6354020067527E /* 現代94.png in Resources */,
 				D800CE6B1C5CAAA100C23E3B /* 古来27.png in Resources */,
 				D800CE611C5CAAA100C23E3B /* 古来17.png in Resources */,
 				D800CE9D1C5CAAA100C23E3B /* 古来77.png in Resources */,
 				D800CE511C5CAAA100C23E3B /* 古来.png in Resources */,
 				D800CEB61C5CE63200C23E3B /* 古来 in Resources */,
 				D800CE601C5CAAA100C23E3B /* 古来16.png in Resources */,
+				D83535B81C6354020067527E /* 現代91.png in Resources */,
 				D8F61A3D1C6248B400F1F739 /* 青春１８.png in Resources */,
 				D800CE651C5CAAA100C23E3B /* 古来21.png in Resources */,
+				D835356A1C6354020067527E /* 現代13.png in Resources */,
 				D858B9191C535C1500C5B9B0 /* 古来menu.png in Resources */,
 				D8F61A361C6248B400F1F739 /* 青春１１.png in Resources */,
 				D800CE771C5CAAA100C23E3B /* 古来39.png in Resources */,
 				D800CE8A1C5CAAA100C23E3B /* 古来58.png in Resources */,
 				D800CE951C5CAAA100C23E3B /* 古来69.png in Resources */,
+				D83535AE1C6354020067527E /* 現代81.png in Resources */,
 				D800CE7A1C5CAAA100C23E3B /* 古来42.png in Resources */,
 				D800CE6C1C5CAAA100C23E3B /* 古来28.png in Resources */,
+				D83535A51C6354020067527E /* 現代72.png in Resources */,
 				D8F61A401C6248B400F1F739 /* 青春２１.png in Resources */,
 				D800CE8B1C5CAAA100C23E3B /* 古来59.png in Resources */,
+				D83535A11C6354020067527E /* 現代68.png in Resources */,
 				D858B91E1C535C9A00C5B9B0 /* menu青春.png in Resources */,
+				D83535611C6354020067527E /* 現代4.png in Resources */,
 				D800CE581C5CAAA100C23E3B /* 古来8.png in Resources */,
 				D800CE681C5CAAA100C23E3B /* 古来24.png in Resources */,
+				D83535671C6354020067527E /* 現代10.png in Resources */,
 				D800CE931C5CAAA100C23E3B /* 古来67.png in Resources */,
 				D800CEA81C5CAAA100C23E3B /* 古来88.png in Resources */,
 				D8F61A451C6248B400F1F739 /* 青春２６.png in Resources */,
+				D83535B71C6354020067527E /* 現代90.png in Resources */,
 				D800CE561C5CAAA100C23E3B /* 古来6.png in Resources */,
 				D800CE881C5CAAA100C23E3B /* 古来56.png in Resources */,
+				D83535751C6354020067527E /* 現代24.png in Resources */,
 				D800CE6E1C5CAAA100C23E3B /* 古来30.png in Resources */,
+				D83535811C6354020067527E /* 現代36.png in Resources */,
 				D800CE5B1C5CAAA100C23E3B /* 古来11.png in Resources */,
+				D835358C1C6354020067527E /* 現代47.png in Resources */,
+				D835359F1C6354020067527E /* 現代66.png in Resources */,
+				D835358B1C6354020067527E /* 現代46.png in Resources */,
 				D800CE961C5CAAA100C23E3B /* 古来70.png in Resources */,
+				D83535BC1C6354020067527E /* 現代95.png in Resources */,
 				D8F61A471C6248B400F1F739 /* 青春２８.png in Resources */,
+				D83535A61C6354020067527E /* 現代73.png in Resources */,
+				D835357E1C6354020067527E /* 現代33.png in Resources */,
 				D800CEA61C5CAAA100C23E3B /* 古来86.png in Resources */,
 				D800CE891C5CAAA100C23E3B /* 古来57.png in Resources */,
 				D8F61A371C6248B400F1F739 /* 青春１２.png in Resources */,
 				D8F61A381C6248B400F1F739 /* 青春１３.png in Resources */,
 				D858B91F1C535C9A00C5B9B0 /* 現代menu.png in Resources */,
 				D8F61A321C6248B400F1F739 /* 青春７.png in Resources */,
+				D83535B31C6354020067527E /* 現代86.png in Resources */,
 				D8F61A311C6248B400F1F739 /* 青春６.png in Resources */,
 				D800CE7D1C5CAAA100C23E3B /* 古来45.png in Resources */,
 				D800CE541C5CAAA100C23E3B /* 古来4.png in Resources */,
@@ -726,8 +1078,13 @@
 				D800CE5A1C5CAAA100C23E3B /* 古来10.png in Resources */,
 				D800CE571C5CAAA100C23E3B /* 古来7.png in Resources */,
 				D8F61A3A1C6248B400F1F739 /* 青春１５.png in Resources */,
+				D83535A81C6354020067527E /* 現代75.png in Resources */,
+				D83535801C6354020067527E /* 現代35.png in Resources */,
+				D83535871C6354020067527E /* 現代42.png in Resources */,
 				D8F61A461C6248B400F1F739 /* 青春２７.png in Resources */,
+				D83535791C6354020067527E /* 現代28.png in Resources */,
 				D800CE5E1C5CAAA100C23E3B /* 古来14.png in Resources */,
+				D835358A1C6354020067527E /* 現代45.png in Resources */,
 				D800CEB01C5CAAA100C23E3B /* 古来96.png in Resources */,
 				D800CE721C5CAAA100C23E3B /* 古来34.png in Resources */,
 				D800CE591C5CAAA100C23E3B /* 古来9.png in Resources */,
@@ -736,53 +1093,96 @@
 				D85564751C39110A00028901 /* Main.storyboard in Resources */,
 				D800CE911C5CAAA100C23E3B /* 古来65.png in Resources */,
 				D800CEB41C5CAAA100C23E3B /* 古来100.png in Resources */,
+				D83535AC1C6354020067527E /* 現代79.png in Resources */,
 				D800CE5D1C5CAAA100C23E3B /* 古来13.png in Resources */,
 				D800CE871C5CAAA100C23E3B /* 古来55.png in Resources */,
+				D83535691C6354020067527E /* 現代12.png in Resources */,
 				D800CE9A1C5CAAA100C23E3B /* 古来74.png in Resources */,
 				D8F61A411C6248B400F1F739 /* 青春２２.png in Resources */,
 				D8F61A491C6248B400F1F739 /* 青春３０.png in Resources */,
+				D83535A91C6354020067527E /* 現代76.png in Resources */,
+				D83535C11C6354020067527E /* 現代100.png in Resources */,
 				D800CE991C5CAAA100C23E3B /* 古来73.png in Resources */,
 				D800CE921C5CAAA100C23E3B /* 古来66.png in Resources */,
 				D800CE751C5CAAA100C23E3B /* 古来37.png in Resources */,
+				D83535971C6354020067527E /* 現代58.png in Resources */,
 				D800CE781C5CAAA100C23E3B /* 古来40.png in Resources */,
 				D800CE971C5CAAA100C23E3B /* 古来71.png in Resources */,
+				D83535961C6354020067527E /* 現代57.png in Resources */,
+				D83535601C6354020067527E /* 現代3.png in Resources */,
 				D800CE521C5CAAA100C23E3B /* 古来2.png in Resources */,
+				D835358D1C6354020067527E /* 現代48.png in Resources */,
 				D8F61A341C6248B400F1F739 /* 青春９.png in Resources */,
+				D83535621C6354020067527E /* 現代5.png in Resources */,
+				D835359C1C6354020067527E /* 現代63.png in Resources */,
 				D800CE9C1C5CAAA100C23E3B /* 古来76.png in Resources */,
 				D800CE741C5CAAA100C23E3B /* 古来36.png in Resources */,
 				D800CE671C5CAAA100C23E3B /* 古来23.png in Resources */,
+				D83535861C6354020067527E /* 現代41.png in Resources */,
 				D800CE8D1C5CAAA100C23E3B /* 古来61.png in Resources */,
+				D83535AF1C6354020067527E /* 現代82.png in Resources */,
 				D800CEA11C5CAAA100C23E3B /* 古来81.png in Resources */,
 				D800CE8C1C5CAAA100C23E3B /* 古来60.png in Resources */,
 				D8F61A3F1C6248B400F1F739 /* 青春２０.png in Resources */,
 				D8F61A481C6248B400F1F739 /* 青春２９.png in Resources */,
 				D800CE901C5CAAA100C23E3B /* 古来64.png in Resources */,
 				D8F61A3E1C6248B400F1F739 /* 青春１９.png in Resources */,
+				D835357F1C6354020067527E /* 現代34.png in Resources */,
 				815875DD1C5E398400821609 /* bg.png in Resources */,
+				D83535911C6354020067527E /* 現代52.png in Resources */,
 				D800CEAB1C5CAAA100C23E3B /* 古来91.png in Resources */,
+				D83535A21C6354020067527E /* 現代69.png in Resources */,
 				D8F61A2F1C6248B400F1F739 /* 青春４.png in Resources */,
 				D800CEB21C5CAAA100C23E3B /* 古来98.png in Resources */,
+				D83535771C6354020067527E /* 現代26.png in Resources */,
 				D800CE621C5CAAA100C23E3B /* 古来18.png in Resources */,
+				D83535991C6354020067527E /* 現代60.png in Resources */,
+				D83535641C6354020067527E /* 現代7.png in Resources */,
+				D83535AA1C6354020067527E /* 現代77.png in Resources */,
+				D835357A1C6354020067527E /* 現代29.png in Resources */,
 				D800CE6D1C5CAAA100C23E3B /* 古来29.png in Resources */,
+				D83535B01C6354020067527E /* 現代83.png in Resources */,
 				D858B9171C535A2900C5B9B0 /* top.png in Resources */,
+				D83535A41C6354020067527E /* 現代71.png in Resources */,
 				D800CE821C5CAAA100C23E3B /* 古来50.png in Resources */,
+				D835356F1C6354020067527E /* 現代18.png in Resources */,
 				D88C0E2B1C6240FD00476C42 /* シェイク.gif in Resources */,
+				D83535821C6354020067527E /* 現代37.png in Resources */,
+				D83535681C6354020067527E /* 現代11.png in Resources */,
 				D800CEB31C5CAAA100C23E3B /* 古来99.png in Resources */,
+				D83535B21C6354020067527E /* 現代85.png in Resources */,
+				D835356B1C6354020067527E /* 現代14.png in Resources */,
+				D83535661C6354020067527E /* 現代9.png in Resources */,
+				D83535951C6354020067527E /* 現代56.png in Resources */,
+				D83535921C6354020067527E /* 現代53.png in Resources */,
 				D84097CF1C623B08004C9A72 /* 12540106_916115085152005_2121673590_n.jpg in Resources */,
+				D835355F1C6354020067527E /* 現代2.png in Resources */,
 				D800CEAC1C5CAAA100C23E3B /* 古来92.png in Resources */,
 				D800CE711C5CAAA100C23E3B /* 古来33.png in Resources */,
+				D835359A1C6354020067527E /* 現代61.png in Resources */,
+				D83535761C6354020067527E /* 現代25.png in Resources */,
 				D800CEB11C5CAAA100C23E3B /* 古来97.png in Resources */,
+				D835357C1C6354020067527E /* 現代31.png in Resources */,
 				D800CEA21C5CAAA100C23E3B /* 古来82.png in Resources */,
 				D800CE831C5CAAA100C23E3B /* 古来51.png in Resources */,
 				D800CE981C5CAAA100C23E3B /* 古来72.png in Resources */,
+				D835357B1C6354020067527E /* 現代30.png in Resources */,
 				D800CE691C5CAAA100C23E3B /* 古来25.png in Resources */,
 				D88B617B1C4A2DD2000636A3 /* LaunchScreen6.xib in Resources */,
+				D83535B91C6354020067527E /* 現代92.png in Resources */,
 				D800CEA41C5CAAA100C23E3B /* 古来84.png in Resources */,
 				D800CE9E1C5CAAA100C23E3B /* 古来78.png in Resources */,
+				D83535A71C6354020067527E /* 現代74.png in Resources */,
+				D83535851C6354020067527E /* 現代40.png in Resources */,
 				D800CE941C5CAAA100C23E3B /* 古来68.png in Resources */,
+				D83535781C6354020067527E /* 現代27.png in Resources */,
 				D800CE701C5CAAA100C23E3B /* 古来32.png in Resources */,
+				D83535631C6354020067527E /* 現代6.png in Resources */,
+				D83535BD1C6354020067527E /* 現代96.png in Resources */,
+				D83535B51C6354020067527E /* 現代88.png in Resources */,
 				D800CE761C5CAAA100C23E3B /* 古来38.png in Resources */,
 				D800CE7F1C5CAAA100C23E3B /* 古来47.png in Resources */,
+				D83535831C6354020067527E /* 現代38.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

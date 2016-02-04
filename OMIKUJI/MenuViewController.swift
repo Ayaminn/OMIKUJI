@@ -72,6 +72,7 @@ class MenuViewController: UIViewController {
             oneDayViewController()
             AppDel.num = 1
             print("本日二回目以降です")
+            //nextViewController()
         }
     }
 //----青春おみくじのボタンが押されたとき
