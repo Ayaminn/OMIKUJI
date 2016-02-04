@@ -124,7 +124,38 @@
 		D858B91F1C535C9A00C5B9B0 /* 現代menu.png in Resources */ = {isa = PBXBuildFile; fileRef = D858B91C1C535C9A00C5B9B0 /* 現代menu.png */; };
 		D88B617B1C4A2DD2000636A3 /* LaunchScreen6.xib in Resources */ = {isa = PBXBuildFile; fileRef = D88B617A1C4A2DD2000636A3 /* LaunchScreen6.xib */; };
 		D88C0E291C623EE300476C42 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D88C0E281C623EE300476C42 /* UIImage+animatedGIF.m */; };
+		D88C0E2B1C6240FD00476C42 /* シェイク.gif in Resources */ = {isa = PBXBuildFile; fileRef = D88C0E2A1C6240FD00476C42 /* シェイク.gif */; };
 		D8A760E01C4C83E90063BADF /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A760DF1C4C83E90063BADF /* appicon.png */; };
+		D8F61A2C1C6248B400F1F739 /* 青春１.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A0E1C6248B300F1F739 /* 青春１.png */; };
+		D8F61A2D1C6248B400F1F739 /* 青春２.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A0F1C6248B400F1F739 /* 青春２.png */; };
+		D8F61A2E1C6248B400F1F739 /* 青春３.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A101C6248B400F1F739 /* 青春３.png */; };
+		D8F61A2F1C6248B400F1F739 /* 青春４.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A111C6248B400F1F739 /* 青春４.png */; };
+		D8F61A301C6248B400F1F739 /* 青春５.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A121C6248B400F1F739 /* 青春５.png */; };
+		D8F61A311C6248B400F1F739 /* 青春６.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A131C6248B400F1F739 /* 青春６.png */; };
+		D8F61A321C6248B400F1F739 /* 青春７.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A141C6248B400F1F739 /* 青春７.png */; };
+		D8F61A331C6248B400F1F739 /* 青春８.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A151C6248B400F1F739 /* 青春８.png */; };
+		D8F61A341C6248B400F1F739 /* 青春９.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A161C6248B400F1F739 /* 青春９.png */; };
+		D8F61A351C6248B400F1F739 /* 青春１０.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A171C6248B400F1F739 /* 青春１０.png */; };
+		D8F61A361C6248B400F1F739 /* 青春１１.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A181C6248B400F1F739 /* 青春１１.png */; };
+		D8F61A371C6248B400F1F739 /* 青春１２.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A191C6248B400F1F739 /* 青春１２.png */; };
+		D8F61A381C6248B400F1F739 /* 青春１３.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A1A1C6248B400F1F739 /* 青春１３.png */; };
+		D8F61A391C6248B400F1F739 /* 青春１４.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A1B1C6248B400F1F739 /* 青春１４.png */; };
+		D8F61A3A1C6248B400F1F739 /* 青春１５.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A1C1C6248B400F1F739 /* 青春１５.png */; };
+		D8F61A3B1C6248B400F1F739 /* 青春１６.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A1D1C6248B400F1F739 /* 青春１６.png */; };
+		D8F61A3C1C6248B400F1F739 /* 青春１７.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A1E1C6248B400F1F739 /* 青春１７.png */; };
+		D8F61A3D1C6248B400F1F739 /* 青春１８.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A1F1C6248B400F1F739 /* 青春１８.png */; };
+		D8F61A3E1C6248B400F1F739 /* 青春１９.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A201C6248B400F1F739 /* 青春１９.png */; };
+		D8F61A3F1C6248B400F1F739 /* 青春２０.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A211C6248B400F1F739 /* 青春２０.png */; };
+		D8F61A401C6248B400F1F739 /* 青春２１.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A221C6248B400F1F739 /* 青春２１.png */; };
+		D8F61A411C6248B400F1F739 /* 青春２２.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A231C6248B400F1F739 /* 青春２２.png */; };
+		D8F61A421C6248B400F1F739 /* 青春２３.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A241C6248B400F1F739 /* 青春２３.png */; };
+		D8F61A431C6248B400F1F739 /* 青春２４.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A251C6248B400F1F739 /* 青春２４.png */; };
+		D8F61A441C6248B400F1F739 /* 青春２５.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A261C6248B400F1F739 /* 青春２５.png */; };
+		D8F61A451C6248B400F1F739 /* 青春２６.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A271C6248B400F1F739 /* 青春２６.png */; };
+		D8F61A461C6248B400F1F739 /* 青春２７.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A281C6248B400F1F739 /* 青春２７.png */; };
+		D8F61A471C6248B400F1F739 /* 青春２８.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A291C6248B400F1F739 /* 青春２８.png */; };
+		D8F61A481C6248B400F1F739 /* 青春２９.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A2A1C6248B400F1F739 /* 青春２９.png */; };
+		D8F61A491C6248B400F1F739 /* 青春３０.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A2B1C6248B400F1F739 /* 青春３０.png */; };
 		D8FC567A1C4A3A7100436299 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8FC56791C4A3A7100436299 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -262,7 +293,38 @@
 		D88C0E261C623EE200476C42 /* OMIKUJI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OMIKUJI-Bridging-Header.h"; sourceTree = "<group>"; };
 		D88C0E271C623EE300476C42 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
 		D88C0E281C623EE300476C42 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		D88C0E2A1C6240FD00476C42 /* シェイク.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "シェイク.gif"; sourceTree = "<group>"; };
 		D8A760DF1C4C83E90063BADF /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
+		D8F61A0E1C6248B300F1F739 /* 青春１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春１.png"; sourceTree = "<group>"; };
+		D8F61A0F1C6248B400F1F739 /* 青春２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春２.png"; sourceTree = "<group>"; };
+		D8F61A101C6248B400F1F739 /* 青春３.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春３.png"; sourceTree = "<group>"; };
+		D8F61A111C6248B400F1F739 /* 青春４.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春４.png"; sourceTree = "<group>"; };
+		D8F61A121C6248B400F1F739 /* 青春５.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春５.png"; sourceTree = "<group>"; };
+		D8F61A131C6248B400F1F739 /* 青春６.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春６.png"; sourceTree = "<group>"; };
+		D8F61A141C6248B400F1F739 /* 青春７.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春７.png"; sourceTree = "<group>"; };
+		D8F61A151C6248B400F1F739 /* 青春８.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春８.png"; sourceTree = "<group>"; };
+		D8F61A161C6248B400F1F739 /* 青春９.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春９.png"; sourceTree = "<group>"; };
+		D8F61A171C6248B400F1F739 /* 青春１０.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春１０.png"; sourceTree = "<group>"; };
+		D8F61A181C6248B400F1F739 /* 青春１１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春１１.png"; sourceTree = "<group>"; };
+		D8F61A191C6248B400F1F739 /* 青春１２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春１２.png"; sourceTree = "<group>"; };
+		D8F61A1A1C6248B400F1F739 /* 青春１３.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春１３.png"; sourceTree = "<group>"; };
+		D8F61A1B1C6248B400F1F739 /* 青春１４.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春１４.png"; sourceTree = "<group>"; };
+		D8F61A1C1C6248B400F1F739 /* 青春１５.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春１５.png"; sourceTree = "<group>"; };
+		D8F61A1D1C6248B400F1F739 /* 青春１６.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春１６.png"; sourceTree = "<group>"; };
+		D8F61A1E1C6248B400F1F739 /* 青春１７.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春１７.png"; sourceTree = "<group>"; };
+		D8F61A1F1C6248B400F1F739 /* 青春１８.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春１８.png"; sourceTree = "<group>"; };
+		D8F61A201C6248B400F1F739 /* 青春１９.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春１９.png"; sourceTree = "<group>"; };
+		D8F61A211C6248B400F1F739 /* 青春２０.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春２０.png"; sourceTree = "<group>"; };
+		D8F61A221C6248B400F1F739 /* 青春２１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春２１.png"; sourceTree = "<group>"; };
+		D8F61A231C6248B400F1F739 /* 青春２２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春２２.png"; sourceTree = "<group>"; };
+		D8F61A241C6248B400F1F739 /* 青春２３.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春２３.png"; sourceTree = "<group>"; };
+		D8F61A251C6248B400F1F739 /* 青春２４.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春２４.png"; sourceTree = "<group>"; };
+		D8F61A261C6248B400F1F739 /* 青春２５.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春２５.png"; sourceTree = "<group>"; };
+		D8F61A271C6248B400F1F739 /* 青春２６.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春２６.png"; sourceTree = "<group>"; };
+		D8F61A281C6248B400F1F739 /* 青春２７.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春２７.png"; sourceTree = "<group>"; };
+		D8F61A291C6248B400F1F739 /* 青春２８.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春２８.png"; sourceTree = "<group>"; };
+		D8F61A2A1C6248B400F1F739 /* 青春２９.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春２９.png"; sourceTree = "<group>"; };
+		D8F61A2B1C6248B400F1F739 /* 青春３０.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春３０.png"; sourceTree = "<group>"; };
 		D8FC56791C4A3A7100436299 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -415,12 +477,43 @@
 				D800CE4E1C5CAAA100C23E3B /* 古来98.png */,
 				D800CE4F1C5CAAA100C23E3B /* 古来99.png */,
 				D800CE501C5CAAA100C23E3B /* 古来100.png */,
+				D8F61A0E1C6248B300F1F739 /* 青春１.png */,
+				D8F61A0F1C6248B400F1F739 /* 青春２.png */,
+				D8F61A101C6248B400F1F739 /* 青春３.png */,
+				D8F61A111C6248B400F1F739 /* 青春４.png */,
+				D8F61A121C6248B400F1F739 /* 青春５.png */,
+				D8F61A131C6248B400F1F739 /* 青春６.png */,
+				D8F61A141C6248B400F1F739 /* 青春７.png */,
+				D8F61A151C6248B400F1F739 /* 青春８.png */,
+				D8F61A161C6248B400F1F739 /* 青春９.png */,
+				D8F61A171C6248B400F1F739 /* 青春１０.png */,
+				D8F61A181C6248B400F1F739 /* 青春１１.png */,
+				D8F61A191C6248B400F1F739 /* 青春１２.png */,
+				D8F61A1A1C6248B400F1F739 /* 青春１３.png */,
+				D8F61A1B1C6248B400F1F739 /* 青春１４.png */,
+				D8F61A1C1C6248B400F1F739 /* 青春１５.png */,
+				D8F61A1D1C6248B400F1F739 /* 青春１６.png */,
+				D8F61A1E1C6248B400F1F739 /* 青春１７.png */,
+				D8F61A1F1C6248B400F1F739 /* 青春１８.png */,
+				D8F61A201C6248B400F1F739 /* 青春１９.png */,
+				D8F61A211C6248B400F1F739 /* 青春２０.png */,
+				D8F61A221C6248B400F1F739 /* 青春２１.png */,
+				D8F61A231C6248B400F1F739 /* 青春２２.png */,
+				D8F61A241C6248B400F1F739 /* 青春２３.png */,
+				D8F61A251C6248B400F1F739 /* 青春２４.png */,
+				D8F61A261C6248B400F1F739 /* 青春２５.png */,
+				D8F61A271C6248B400F1F739 /* 青春２６.png */,
+				D8F61A281C6248B400F1F739 /* 青春２７.png */,
+				D8F61A291C6248B400F1F739 /* 青春２８.png */,
+				D8F61A2A1C6248B400F1F739 /* 青春２９.png */,
+				D8F61A2B1C6248B400F1F739 /* 青春３０.png */,
 				D858B91A1C535C9A00C5B9B0 /* menu.png */,
 				D858B91B1C535C9A00C5B9B0 /* menu青春.png */,
 				D858B91C1C535C9A00C5B9B0 /* 現代menu.png */,
 				D858B9181C535C1500C5B9B0 /* 古来menu.png */,
 				D858B9161C535A2900C5B9B0 /* top.png */,
 				D84097CE1C623B08004C9A72 /* 12540106_916115085152005_2121673590_n.jpg */,
+				D88C0E2A1C6240FD00476C42 /* シェイク.gif */,
 				D88C0E271C623EE300476C42 /* UIImage+animatedGIF.h */,
 				D88C0E281C623EE300476C42 /* UIImage+animatedGIF.m */,
 				815875DE1C5E398B00821609 /* Images */,
@@ -429,8 +522,8 @@
 				D855646F1C39110A00028901 /* AppDelegate.swift */,
 				D85564711C39110A00028901 /* ViewController.swift */,
 				D81B89CF1C58BA70005030F2 /* ResultViewController.swift */,
-				D85564731C39110A00028901 /* Main.storyboard */,
 				813ED29D1C5F97300089762E /* MenuViewController.swift */,
+				D85564731C39110A00028901 /* Main.storyboard */,
 				D88B617A1C4A2DD2000636A3 /* LaunchScreen6.xib */,
 				D855646D1C39110A00028901 /* Supporting Files */,
 				D88C0E261C623EE200476C42 /* OMIKUJI-Bridging-Header.h */,
@@ -547,8 +640,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D800CE531C5CAAA100C23E3B /* 古来3.png in Resources */,
+				D8F61A421C6248B400F1F739 /* 青春２３.png in Resources */,
+				D8F61A431C6248B400F1F739 /* 青春２４.png in Resources */,
 				D800CE811C5CAAA100C23E3B /* 古来49.png in Resources */,
 				D800CE7B1C5CAAA100C23E3B /* 古来43.png in Resources */,
+				D8F61A351C6248B400F1F739 /* 青春１０.png in Resources */,
+				D8F61A441C6248B400F1F739 /* 青春２５.png in Resources */,
 				D858B91D1C535C9A00C5B9B0 /* menu.png in Resources */,
 				D8A760E01C4C83E90063BADF /* appicon.png in Resources */,
 				D800CE5F1C5CAAA100C23E3B /* 古来15.png in Resources */,
@@ -556,9 +653,11 @@
 				D800CEA91C5CAAA100C23E3B /* 古来89.png in Resources */,
 				D800CEAE1C5CAAA100C23E3B /* 古来94.png in Resources */,
 				D800CEA01C5CAAA100C23E3B /* 古来80.png in Resources */,
+				D8F61A3B1C6248B400F1F739 /* 青春１６.png in Resources */,
 				D800CE9B1C5CAAA100C23E3B /* 古来75.png in Resources */,
 				D800CE851C5CAAA100C23E3B /* 古来53.png in Resources */,
 				D800CE631C5CAAA100C23E3B /* 古来19.png in Resources */,
+				D8F61A2C1C6248B400F1F739 /* 青春１.png in Resources */,
 				D800CEAA1C5CAAA100C23E3B /* 古来90.png in Resources */,
 				D800CE7C1C5CAAA100C23E3B /* 古来44.png in Resources */,
 				D800CE5C1C5CAAA100C23E3B /* 古来12.png in Resources */,
@@ -566,6 +665,9 @@
 				D800CEA71C5CAAA100C23E3B /* 古来87.png in Resources */,
 				D800CE731C5CAAA100C23E3B /* 古来35.png in Resources */,
 				811360C41C5F7E7B00FDD14E /* oneday-onetime.png in Resources */,
+				D8F61A331C6248B400F1F739 /* 青春８.png in Resources */,
+				D8F61A391C6248B400F1F739 /* 青春１４.png in Resources */,
+				D8F61A2E1C6248B400F1F739 /* 青春３.png in Resources */,
 				D800CE6A1C5CAAA100C23E3B /* 古来26.png in Resources */,
 				D800CEA31C5CAAA100C23E3B /* 古来83.png in Resources */,
 				D800CEA51C5CAAA100C23E3B /* 古来85.png in Resources */,
@@ -575,8 +677,11 @@
 				D800CE7E1C5CAAA100C23E3B /* 古来46.png in Resources */,
 				D800CE9F1C5CAAA100C23E3B /* 古来79.png in Resources */,
 				D800CE641C5CAAA100C23E3B /* 古来20.png in Resources */,
+				D8F61A3C1C6248B400F1F739 /* 青春１７.png in Resources */,
 				D800CE801C5CAAA100C23E3B /* 古来48.png in Resources */,
+				D8F61A2D1C6248B400F1F739 /* 青春２.png in Resources */,
 				D8FC567A1C4A3A7100436299 /* Images.xcassets in Resources */,
+				D8F61A301C6248B400F1F739 /* 青春５.png in Resources */,
 				D800CE791C5CAAA100C23E3B /* 古来41.png in Resources */,
 				D800CE6B1C5CAAA100C23E3B /* 古来27.png in Resources */,
 				D800CE611C5CAAA100C23E3B /* 古来17.png in Resources */,
@@ -584,33 +689,44 @@
 				D800CE511C5CAAA100C23E3B /* 古来.png in Resources */,
 				D800CEB61C5CE63200C23E3B /* 古来 in Resources */,
 				D800CE601C5CAAA100C23E3B /* 古来16.png in Resources */,
+				D8F61A3D1C6248B400F1F739 /* 青春１８.png in Resources */,
 				D800CE651C5CAAA100C23E3B /* 古来21.png in Resources */,
 				D858B9191C535C1500C5B9B0 /* 古来menu.png in Resources */,
+				D8F61A361C6248B400F1F739 /* 青春１１.png in Resources */,
 				D800CE771C5CAAA100C23E3B /* 古来39.png in Resources */,
 				D800CE8A1C5CAAA100C23E3B /* 古来58.png in Resources */,
 				D800CE951C5CAAA100C23E3B /* 古来69.png in Resources */,
 				D800CE7A1C5CAAA100C23E3B /* 古来42.png in Resources */,
 				D800CE6C1C5CAAA100C23E3B /* 古来28.png in Resources */,
+				D8F61A401C6248B400F1F739 /* 青春２１.png in Resources */,
 				D800CE8B1C5CAAA100C23E3B /* 古来59.png in Resources */,
 				D858B91E1C535C9A00C5B9B0 /* menu青春.png in Resources */,
 				D800CE581C5CAAA100C23E3B /* 古来8.png in Resources */,
 				D800CE681C5CAAA100C23E3B /* 古来24.png in Resources */,
 				D800CE931C5CAAA100C23E3B /* 古来67.png in Resources */,
 				D800CEA81C5CAAA100C23E3B /* 古来88.png in Resources */,
+				D8F61A451C6248B400F1F739 /* 青春２６.png in Resources */,
 				D800CE561C5CAAA100C23E3B /* 古来6.png in Resources */,
 				D800CE881C5CAAA100C23E3B /* 古来56.png in Resources */,
 				D800CE6E1C5CAAA100C23E3B /* 古来30.png in Resources */,
 				D800CE5B1C5CAAA100C23E3B /* 古来11.png in Resources */,
 				D800CE961C5CAAA100C23E3B /* 古来70.png in Resources */,
+				D8F61A471C6248B400F1F739 /* 青春２８.png in Resources */,
 				D800CEA61C5CAAA100C23E3B /* 古来86.png in Resources */,
 				D800CE891C5CAAA100C23E3B /* 古来57.png in Resources */,
+				D8F61A371C6248B400F1F739 /* 青春１２.png in Resources */,
+				D8F61A381C6248B400F1F739 /* 青春１３.png in Resources */,
 				D858B91F1C535C9A00C5B9B0 /* 現代menu.png in Resources */,
+				D8F61A321C6248B400F1F739 /* 青春７.png in Resources */,
+				D8F61A311C6248B400F1F739 /* 青春６.png in Resources */,
 				D800CE7D1C5CAAA100C23E3B /* 古来45.png in Resources */,
 				D800CE541C5CAAA100C23E3B /* 古来4.png in Resources */,
 				D800CEAD1C5CAAA100C23E3B /* 古来93.png in Resources */,
 				D800CE8E1C5CAAA100C23E3B /* 古来62.png in Resources */,
 				D800CE5A1C5CAAA100C23E3B /* 古来10.png in Resources */,
 				D800CE571C5CAAA100C23E3B /* 古来7.png in Resources */,
+				D8F61A3A1C6248B400F1F739 /* 青春１５.png in Resources */,
+				D8F61A461C6248B400F1F739 /* 青春２７.png in Resources */,
 				D800CE5E1C5CAAA100C23E3B /* 古来14.png in Resources */,
 				D800CEB01C5CAAA100C23E3B /* 古来96.png in Resources */,
 				D800CE721C5CAAA100C23E3B /* 古来34.png in Resources */,
@@ -623,26 +739,34 @@
 				D800CE5D1C5CAAA100C23E3B /* 古来13.png in Resources */,
 				D800CE871C5CAAA100C23E3B /* 古来55.png in Resources */,
 				D800CE9A1C5CAAA100C23E3B /* 古来74.png in Resources */,
+				D8F61A411C6248B400F1F739 /* 青春２２.png in Resources */,
+				D8F61A491C6248B400F1F739 /* 青春３０.png in Resources */,
 				D800CE991C5CAAA100C23E3B /* 古来73.png in Resources */,
 				D800CE921C5CAAA100C23E3B /* 古来66.png in Resources */,
 				D800CE751C5CAAA100C23E3B /* 古来37.png in Resources */,
 				D800CE781C5CAAA100C23E3B /* 古来40.png in Resources */,
 				D800CE971C5CAAA100C23E3B /* 古来71.png in Resources */,
 				D800CE521C5CAAA100C23E3B /* 古来2.png in Resources */,
+				D8F61A341C6248B400F1F739 /* 青春９.png in Resources */,
 				D800CE9C1C5CAAA100C23E3B /* 古来76.png in Resources */,
 				D800CE741C5CAAA100C23E3B /* 古来36.png in Resources */,
 				D800CE671C5CAAA100C23E3B /* 古来23.png in Resources */,
 				D800CE8D1C5CAAA100C23E3B /* 古来61.png in Resources */,
 				D800CEA11C5CAAA100C23E3B /* 古来81.png in Resources */,
 				D800CE8C1C5CAAA100C23E3B /* 古来60.png in Resources */,
+				D8F61A3F1C6248B400F1F739 /* 青春２０.png in Resources */,
+				D8F61A481C6248B400F1F739 /* 青春２９.png in Resources */,
 				D800CE901C5CAAA100C23E3B /* 古来64.png in Resources */,
+				D8F61A3E1C6248B400F1F739 /* 青春１９.png in Resources */,
 				815875DD1C5E398400821609 /* bg.png in Resources */,
 				D800CEAB1C5CAAA100C23E3B /* 古来91.png in Resources */,
+				D8F61A2F1C6248B400F1F739 /* 青春４.png in Resources */,
 				D800CEB21C5CAAA100C23E3B /* 古来98.png in Resources */,
 				D800CE621C5CAAA100C23E3B /* 古来18.png in Resources */,
 				D800CE6D1C5CAAA100C23E3B /* 古来29.png in Resources */,
 				D858B9171C535A2900C5B9B0 /* top.png in Resources */,
 				D800CE821C5CAAA100C23E3B /* 古来50.png in Resources */,
+				D88C0E2B1C6240FD00476C42 /* シェイク.gif in Resources */,
 				D800CEB31C5CAAA100C23E3B /* 古来99.png in Resources */,
 				D84097CF1C623B08004C9A72 /* 12540106_916115085152005_2121673590_n.jpg in Resources */,
 				D800CEAC1C5CAAA100C23E3B /* 古来92.png in Resources */,
