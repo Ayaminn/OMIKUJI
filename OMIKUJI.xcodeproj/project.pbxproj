@@ -225,7 +225,7 @@
 		D88B617B1C4A2DD2000636A3 /* LaunchScreen6.xib in Resources */ = {isa = PBXBuildFile; fileRef = D88B617A1C4A2DD2000636A3 /* LaunchScreen6.xib */; };
 		D88C0E291C623EE300476C42 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D88C0E281C623EE300476C42 /* UIImage+animatedGIF.m */; };
 		D88C0E2B1C6240FD00476C42 /* シェイク.gif in Resources */ = {isa = PBXBuildFile; fileRef = D88C0E2A1C6240FD00476C42 /* シェイク.gif */; };
-		D8A760E01C4C83E90063BADF /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A760DF1C4C83E90063BADF /* appicon.png */; };
+		D8A760E01C4C83E90063BADF /* iconapps.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A760DF1C4C83E90063BADF /* iconapps.png */; };
 		D8F61A2C1C6248B400F1F739 /* 青春１.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A0E1C6248B300F1F739 /* 青春１.png */; };
 		D8F61A2D1C6248B400F1F739 /* 青春２.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A0F1C6248B400F1F739 /* 青春２.png */; };
 		D8F61A2E1C6248B400F1F739 /* 青春３.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A101C6248B400F1F739 /* 青春３.png */; };
@@ -494,7 +494,7 @@
 		D88C0E271C623EE300476C42 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
 		D88C0E281C623EE300476C42 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 		D88C0E2A1C6240FD00476C42 /* シェイク.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "シェイク.gif"; sourceTree = "<group>"; };
-		D8A760DF1C4C83E90063BADF /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
+		D8A760DF1C4C83E90063BADF /* iconapps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconapps.png; sourceTree = "<group>"; };
 		D8F61A0E1C6248B300F1F739 /* 青春１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春１.png"; sourceTree = "<group>"; };
 		D8F61A0F1C6248B400F1F739 /* 青春２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春２.png"; sourceTree = "<group>"; };
 		D8F61A101C6248B400F1F739 /* 青春３.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春３.png"; sourceTree = "<group>"; };
@@ -814,11 +814,11 @@
 				D858B9161C535A2900C5B9B0 /* top.png */,
 				D84097CE1C623B08004C9A72 /* 12540106_916115085152005_2121673590_n.jpg */,
 				D88C0E2A1C6240FD00476C42 /* シェイク.gif */,
+				D8A760DF1C4C83E90063BADF /* iconapps.png */,
 				D88C0E271C623EE300476C42 /* UIImage+animatedGIF.h */,
 				D88C0E281C623EE300476C42 /* UIImage+animatedGIF.m */,
 				815875DE1C5E398B00821609 /* Images */,
 				D8FC56791C4A3A7100436299 /* Images.xcassets */,
-				D8A760DF1C4C83E90063BADF /* appicon.png */,
 				D855646F1C39110A00028901 /* AppDelegate.swift */,
 				D85564711C39110A00028901 /* ViewController.swift */,
 				D81B89CF1C58BA70005030F2 /* ResultViewController.swift */,
@@ -949,7 +949,7 @@
 				D8F61A351C6248B400F1F739 /* 青春１０.png in Resources */,
 				D8F61A441C6248B400F1F739 /* 青春２５.png in Resources */,
 				D858B91D1C535C9A00C5B9B0 /* menu.png in Resources */,
-				D8A760E01C4C83E90063BADF /* appicon.png in Resources */,
+				D8A760E01C4C83E90063BADF /* iconapps.png in Resources */,
 				D800CE5F1C5CAAA100C23E3B /* 古来15.png in Resources */,
 				D800CE551C5CAAA100C23E3B /* 古来5.png in Resources */,
 				D835356E1C6354020067527E /* 現代17.png in Resources */,
