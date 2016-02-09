@@ -139,7 +139,10 @@ class ResultViewController: UIViewController {
         myComposeView.addImage(resultView.image)
         self.presentViewController(myComposeView, animated: true, completion: nil)
     }
-    
+    @IBAction func returnHomeButton(sender: AnyObject) {
+        performSegueWithIdentifier("returnHome", sender: self)
+    }
+
     func saveButton(sender: UIButton) {
         UIImageWriteToSavedPhotosAlbum(resultView.image!, self, "image:didFinishSavingWithError:contextInfo:", nil)
     }
