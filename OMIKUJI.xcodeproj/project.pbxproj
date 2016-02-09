@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		811360C41C5F7E7B00FDD14E /* oneday-onetime.png in Resources */ = {isa = PBXBuildFile; fileRef = 811360C31C5F7E7B00FDD14E /* oneday-onetime.png */; };
 		813ED29E1C5F97300089762E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813ED29D1C5F97300089762E /* MenuViewController.swift */; };
 		815875DD1C5E398400821609 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 815875DC1C5E398400821609 /* bg.png */; };
 		D800CE511C5CAAA100C23E3B /* 古来.png in Resources */ = {isa = PBXBuildFile; fileRef = D800CDED1C5CAAA000C23E3B /* 古来.png */; };
@@ -110,7 +109,6 @@
 		D800CEB21C5CAAA100C23E3B /* 古来98.png in Resources */ = {isa = PBXBuildFile; fileRef = D800CE4E1C5CAAA100C23E3B /* 古来98.png */; };
 		D800CEB31C5CAAA100C23E3B /* 古来99.png in Resources */ = {isa = PBXBuildFile; fileRef = D800CE4F1C5CAAA100C23E3B /* 古来99.png */; };
 		D800CEB41C5CAAA100C23E3B /* 古来100.png in Resources */ = {isa = PBXBuildFile; fileRef = D800CE501C5CAAA100C23E3B /* 古来100.png */; };
-		D800CEB61C5CE63200C23E3B /* 古来 in Resources */ = {isa = PBXBuildFile; fileRef = D800CEB51C5CE63200C23E3B /* 古来 */; };
 		D81B89D01C58BA70005030F2 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B89CF1C58BA70005030F2 /* ResultViewController.swift */; };
 		D835355E1C6354020067527E /* 現代1.png in Resources */ = {isa = PBXBuildFile; fileRef = D83534FA1C6354010067527E /* 現代1.png */; };
 		D835355F1C6354020067527E /* 現代2.png in Resources */ = {isa = PBXBuildFile; fileRef = D83534FB1C6354010067527E /* 現代2.png */; };
@@ -228,6 +226,8 @@
 		D88B617B1C4A2DD2000636A3 /* LaunchScreen6.xib in Resources */ = {isa = PBXBuildFile; fileRef = D88B617A1C4A2DD2000636A3 /* LaunchScreen6.xib */; };
 		D88C0E291C623EE300476C42 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D88C0E281C623EE300476C42 /* UIImage+animatedGIF.m */; };
 		D89227361C6A36C8006A263F /* menu_new.png in Resources */ = {isa = PBXBuildFile; fileRef = D89227351C6A36C8006A263F /* menu_new.png */; };
+		D8A1AD461C6A98A300A1E636 /* oneday-onetime.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A1AD451C6A98A300A1E636 /* oneday-onetime.png */; };
+		D8A1AD481C6A98CD00A1E636 /* 古来 06-58-18-862 in Resources */ = {isa = PBXBuildFile; fileRef = D8A1AD471C6A98CD00A1E636 /* 古来 06-58-18-862 */; };
 		D8A760E01C4C83E90063BADF /* iconapps.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A760DF1C4C83E90063BADF /* iconapps.png */; };
 		D8F61A2C1C6248B400F1F739 /* 青春１.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A0E1C6248B300F1F739 /* 青春１.png */; };
 		D8F61A2D1C6248B400F1F739 /* 青春２.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A0F1C6248B400F1F739 /* 青春２.png */; };
@@ -273,7 +273,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		811360C31C5F7E7B00FDD14E /* oneday-onetime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "oneday-onetime.png"; path = "古来/oneday-onetime.png"; sourceTree = "<group>"; };
 		813ED29D1C5F97300089762E /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		815875DC1C5E398400821609 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		D800CDED1C5CAAA000C23E3B /* 古来.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "古来.png"; path = "古来/古来.png"; sourceTree = "<group>"; };
@@ -376,7 +375,6 @@
 		D800CE4E1C5CAAA100C23E3B /* 古来98.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "古来98.png"; path = "古来/古来98.png"; sourceTree = "<group>"; };
 		D800CE4F1C5CAAA100C23E3B /* 古来99.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "古来99.png"; path = "古来/古来99.png"; sourceTree = "<group>"; };
 		D800CE501C5CAAA100C23E3B /* 古来100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "古来100.png"; path = "古来/古来100.png"; sourceTree = "<group>"; };
-		D800CEB51C5CE63200C23E3B /* 古来 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "古来"; sourceTree = "<group>"; };
 		D81B89CF1C58BA70005030F2 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
 		D83534FA1C6354010067527E /* 現代1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代1.png"; sourceTree = "<group>"; };
 		D83534FB1C6354010067527E /* 現代2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代2.png"; sourceTree = "<group>"; };
@@ -500,6 +498,8 @@
 		D88C0E271C623EE300476C42 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
 		D88C0E281C623EE300476C42 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 		D89227351C6A36C8006A263F /* menu_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_new.png; sourceTree = "<group>"; };
+		D8A1AD451C6A98A300A1E636 /* oneday-onetime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "oneday-onetime.png"; path = "古来 06-58-18-862/oneday-onetime.png"; sourceTree = "<group>"; };
+		D8A1AD471C6A98CD00A1E636 /* 古来 06-58-18-862 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "古来 06-58-18-862"; sourceTree = "<group>"; };
 		D8A760DF1C4C83E90063BADF /* iconapps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconapps.png; sourceTree = "<group>"; };
 		D8F61A0E1C6248B300F1F739 /* 青春１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春１.png"; sourceTree = "<group>"; };
 		D8F61A0F1C6248B400F1F739 /* 青春２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春２.png"; sourceTree = "<group>"; };
@@ -555,8 +555,8 @@
 		815875DE1C5E398B00821609 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				811360C31C5F7E7B00FDD14E /* oneday-onetime.png */,
-				D800CEB51C5CE63200C23E3B /* 古来 */,
+				D8A1AD451C6A98A300A1E636 /* oneday-onetime.png */,
+				D8A1AD471C6A98CD00A1E636 /* 古来 06-58-18-862 */,
 				815875DC1C5E398400821609 /* bg.png */,
 			);
 			name = Images;
@@ -955,6 +955,7 @@
 				D83535B41C6354020067527E /* 現代87.png in Resources */,
 				D83535AD1C6354020067527E /* 現代80.png in Resources */,
 				D800CE7B1C5CAAA100C23E3B /* 古来43.png in Resources */,
+				D8A1AD481C6A98CD00A1E636 /* 古来 06-58-18-862 in Resources */,
 				D8F61A351C6248B400F1F739 /* 青春１０.png in Resources */,
 				D8F61A441C6248B400F1F739 /* 青春２５.png in Resources */,
 				D858B91D1C535C9A00C5B9B0 /* menu.png in Resources */,
@@ -973,6 +974,7 @@
 				D800CE851C5CAAA100C23E3B /* 古来53.png in Resources */,
 				D800CE631C5CAAA100C23E3B /* 古来19.png in Resources */,
 				D8F61A2C1C6248B400F1F739 /* 青春１.png in Resources */,
+				D8A1AD461C6A98A300A1E636 /* oneday-onetime.png in Resources */,
 				D83535841C6354020067527E /* 現代39.png in Resources */,
 				D800CEAA1C5CAAA100C23E3B /* 古来90.png in Resources */,
 				D800CE7C1C5CAAA100C23E3B /* 古来44.png in Resources */,
@@ -990,7 +992,6 @@
 				D83535A01C6354020067527E /* 現代67.png in Resources */,
 				D800CEA71C5CAAA100C23E3B /* 古来87.png in Resources */,
 				D800CE731C5CAAA100C23E3B /* 古来35.png in Resources */,
-				811360C41C5F7E7B00FDD14E /* oneday-onetime.png in Resources */,
 				D8F61A331C6248B400F1F739 /* 青春８.png in Resources */,
 				D835359D1C6354020067527E /* 現代64.png in Resources */,
 				D8F61A391C6248B400F1F739 /* 青春１４.png in Resources */,
@@ -1034,7 +1035,6 @@
 				D800CE611C5CAAA100C23E3B /* 古来17.png in Resources */,
 				D800CE9D1C5CAAA100C23E3B /* 古来77.png in Resources */,
 				D800CE511C5CAAA100C23E3B /* 古来.png in Resources */,
-				D800CEB61C5CE63200C23E3B /* 古来 in Resources */,
 				D800CE601C5CAAA100C23E3B /* 古来16.png in Resources */,
 				D83535B81C6354020067527E /* 現代91.png in Resources */,
 				D8F61A3D1C6248B400F1F739 /* 青春１８.png in Resources */,
