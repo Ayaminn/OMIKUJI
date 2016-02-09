@@ -222,11 +222,11 @@
 		D858B91D1C535C9A00C5B9B0 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = D858B91A1C535C9A00C5B9B0 /* menu.png */; };
 		D858B91E1C535C9A00C5B9B0 /* menu青春.png in Resources */ = {isa = PBXBuildFile; fileRef = D858B91B1C535C9A00C5B9B0 /* menu青春.png */; };
 		D858B91F1C535C9A00C5B9B0 /* 現代menu.png in Resources */ = {isa = PBXBuildFile; fileRef = D858B91C1C535C9A00C5B9B0 /* 現代menu.png */; };
+		D86AE3AF1C6A4471006F03A0 /* OneDayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86AE3AE1C6A4471006F03A0 /* OneDayController.swift */; };
 		D88B617B1C4A2DD2000636A3 /* LaunchScreen6.xib in Resources */ = {isa = PBXBuildFile; fileRef = D88B617A1C4A2DD2000636A3 /* LaunchScreen6.xib */; };
 		D88C0E291C623EE300476C42 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D88C0E281C623EE300476C42 /* UIImage+animatedGIF.m */; };
 		D88C0E2B1C6240FD00476C42 /* シェイク.gif in Resources */ = {isa = PBXBuildFile; fileRef = D88C0E2A1C6240FD00476C42 /* シェイク.gif */; };
 		D89227361C6A36C8006A263F /* menu_new.png in Resources */ = {isa = PBXBuildFile; fileRef = D89227351C6A36C8006A263F /* menu_new.png */; };
-		D89227381C6A3C92006A263F /* OneDayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89227371C6A3C92006A263F /* OneDayController.swift */; };
 		D8A760E01C4C83E90063BADF /* iconapps.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A760DF1C4C83E90063BADF /* iconapps.png */; };
 		D8F61A2C1C6248B400F1F739 /* 青春１.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A0E1C6248B300F1F739 /* 青春１.png */; };
 		D8F61A2D1C6248B400F1F739 /* 青春２.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F61A0F1C6248B400F1F739 /* 青春２.png */; };
@@ -491,13 +491,13 @@
 		D858B91A1C535C9A00C5B9B0 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		D858B91B1C535C9A00C5B9B0 /* menu青春.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu青春.png"; sourceTree = "<group>"; };
 		D858B91C1C535C9A00C5B9B0 /* 現代menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代menu.png"; sourceTree = "<group>"; };
+		D86AE3AE1C6A4471006F03A0 /* OneDayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneDayController.swift; sourceTree = "<group>"; };
 		D88B617A1C4A2DD2000636A3 /* LaunchScreen6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen6.xib; sourceTree = "<group>"; };
 		D88C0E261C623EE200476C42 /* OMIKUJI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OMIKUJI-Bridging-Header.h"; sourceTree = "<group>"; };
 		D88C0E271C623EE300476C42 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
 		D88C0E281C623EE300476C42 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 		D88C0E2A1C6240FD00476C42 /* シェイク.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "シェイク.gif"; sourceTree = "<group>"; };
 		D89227351C6A36C8006A263F /* menu_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_new.png; sourceTree = "<group>"; };
-		D89227371C6A3C92006A263F /* OneDayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneDayController.swift; sourceTree = "<group>"; };
 		D8A760DF1C4C83E90063BADF /* iconapps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconapps.png; sourceTree = "<group>"; };
 		D8F61A0E1C6248B300F1F739 /* 青春１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春１.png"; sourceTree = "<group>"; };
 		D8F61A0F1C6248B400F1F739 /* 青春２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青春２.png"; sourceTree = "<group>"; };
@@ -828,8 +828,8 @@
 				D85564711C39110A00028901 /* ViewController.swift */,
 				D81B89CF1C58BA70005030F2 /* ResultViewController.swift */,
 				813ED29D1C5F97300089762E /* MenuViewController.swift */,
-				D89227371C6A3C92006A263F /* OneDayController.swift */,
 				D85564731C39110A00028901 /* Main.storyboard */,
+				D86AE3AE1C6A4471006F03A0 /* OneDayController.swift */,
 				D88B617A1C4A2DD2000636A3 /* LaunchScreen6.xib */,
 				D855646D1C39110A00028901 /* Supporting Files */,
 				D88C0E261C623EE200476C42 /* OMIKUJI-Bridging-Header.h */,
@@ -1210,7 +1210,7 @@
 				D85564721C39110A00028901 /* ViewController.swift in Sources */,
 				D85564701C39110A00028901 /* AppDelegate.swift in Sources */,
 				D81B89D01C58BA70005030F2 /* ResultViewController.swift in Sources */,
-				D89227381C6A3C92006A263F /* OneDayController.swift in Sources */,
+				D86AE3AF1C6A4471006F03A0 /* OneDayController.swift in Sources */,
 				D88C0E291C623EE300476C42 /* UIImage+animatedGIF.m in Sources */,
 				813ED29E1C5F97300089762E /* MenuViewController.swift in Sources */,
 			);

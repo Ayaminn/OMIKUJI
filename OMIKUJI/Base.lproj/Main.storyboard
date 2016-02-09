@@ -72,8 +72,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="returnButton:" destination="IyO-Zc-39U" eventType="touchDown" id="gRW-fl-rRM"/>
-                                    <segue destination="a7Q-t6-SDW" kind="show" identifier="returnMenu" id="RaH-Q4-iQH"/>
+                                    <segue destination="a7Q-t6-SDW" kind="show" id="eDd-MN-AS1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -95,7 +94,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WyJ-kv-od4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="15" y="987"/>
+            <point key="canvasLocation" x="15" y="1109"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="fFg-wC-do1">
@@ -416,6 +415,6 @@
         <image name="現代menu.png" width="503" height="142"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="RaH-Q4-iQH"/>
+        <segue reference="eDd-MN-AS1"/>
     </inferredMetricsTieBreakers>
 </document>
