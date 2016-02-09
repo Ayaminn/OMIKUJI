@@ -215,7 +215,6 @@
 		D84097CF1C623B08004C9A72 /* 12540106_916115085152005_2121673590_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D84097CE1C623B08004C9A72 /* 12540106_916115085152005_2121673590_n.jpg */; };
 		D85564701C39110A00028901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D855646F1C39110A00028901 /* AppDelegate.swift */; };
 		D85564721C39110A00028901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85564711C39110A00028901 /* ViewController.swift */; };
-		D85564751C39110A00028901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85564731C39110A00028901 /* Main.storyboard */; };
 		D85564861C39110A00028901 /* OMIKUJITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85564851C39110A00028901 /* OMIKUJITests.swift */; };
 		D858B9171C535A2900C5B9B0 /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = D858B9161C535A2900C5B9B0 /* top.png */; };
 		D858B9191C535C1500C5B9B0 /* 古来menu.png in Resources */ = {isa = PBXBuildFile; fileRef = D858B9181C535C1500C5B9B0 /* 古来menu.png */; };
@@ -225,6 +224,7 @@
 		D86AE3AF1C6A4471006F03A0 /* OneDayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86AE3AE1C6A4471006F03A0 /* OneDayController.swift */; };
 		D86AE3B51C6A4BEC006F03A0 /* iconmonstr-home-6-240.png in Resources */ = {isa = PBXBuildFile; fileRef = D86AE3B41C6A4BEC006F03A0 /* iconmonstr-home-6-240.png */; };
 		D86AE3B71C6A5079006F03A0 /* 12527964_916115071818673_530962410_n.png in Resources */ = {isa = PBXBuildFile; fileRef = D86AE3B61C6A5079006F03A0 /* 12527964_916115071818673_530962410_n.png */; };
+		D86AE3B91C6A5AC5006F03A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86AE3B81C6A5AC5006F03A0 /* Main.storyboard */; };
 		D88B617B1C4A2DD2000636A3 /* LaunchScreen6.xib in Resources */ = {isa = PBXBuildFile; fileRef = D88B617A1C4A2DD2000636A3 /* LaunchScreen6.xib */; };
 		D88C0E291C623EE300476C42 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D88C0E281C623EE300476C42 /* UIImage+animatedGIF.m */; };
 		D89227361C6A36C8006A263F /* menu_new.png in Resources */ = {isa = PBXBuildFile; fileRef = D89227351C6A36C8006A263F /* menu_new.png */; };
@@ -483,7 +483,6 @@
 		D855646E1C39110A00028901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D855646F1C39110A00028901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D85564711C39110A00028901 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D85564741C39110A00028901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D855647F1C39110A00028901 /* OMIKUJITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMIKUJITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85564841C39110A00028901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D85564851C39110A00028901 /* OMIKUJITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMIKUJITests.swift; sourceTree = "<group>"; };
@@ -495,6 +494,7 @@
 		D86AE3AE1C6A4471006F03A0 /* OneDayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneDayController.swift; sourceTree = "<group>"; };
 		D86AE3B41C6A4BEC006F03A0 /* iconmonstr-home-6-240.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-home-6-240.png"; sourceTree = "<group>"; };
 		D86AE3B61C6A5079006F03A0 /* 12527964_916115071818673_530962410_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12527964_916115071818673_530962410_n.png; sourceTree = "<group>"; };
+		D86AE3B81C6A5AC5006F03A0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D88B617A1C4A2DD2000636A3 /* LaunchScreen6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen6.xib; sourceTree = "<group>"; };
 		D88C0E261C623EE200476C42 /* OMIKUJI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OMIKUJI-Bridging-Header.h"; sourceTree = "<group>"; };
 		D88C0E271C623EE300476C42 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
@@ -831,8 +831,8 @@
 				D85564711C39110A00028901 /* ViewController.swift */,
 				D81B89CF1C58BA70005030F2 /* ResultViewController.swift */,
 				813ED29D1C5F97300089762E /* MenuViewController.swift */,
-				D85564731C39110A00028901 /* Main.storyboard */,
 				D86AE3AE1C6A4471006F03A0 /* OneDayController.swift */,
+				D86AE3B81C6A5AC5006F03A0 /* Main.storyboard */,
 				D88B617A1C4A2DD2000636A3 /* LaunchScreen6.xib */,
 				D855646D1C39110A00028901 /* Supporting Files */,
 				D88C0E261C623EE200476C42 /* OMIKUJI-Bridging-Header.h */,
@@ -1102,7 +1102,6 @@
 				D800CE591C5CAAA100C23E3B /* 古来9.png in Resources */,
 				D800CE861C5CAAA100C23E3B /* 古来54.png in Resources */,
 				D800CEAF1C5CAAA100C23E3B /* 古来95.png in Resources */,
-				D85564751C39110A00028901 /* Main.storyboard in Resources */,
 				D800CE911C5CAAA100C23E3B /* 古来65.png in Resources */,
 				D800CEB41C5CAAA100C23E3B /* 古来100.png in Resources */,
 				D83535AC1C6354020067527E /* 現代79.png in Resources */,
@@ -1156,6 +1155,7 @@
 				D83535B01C6354020067527E /* 現代83.png in Resources */,
 				D858B9171C535A2900C5B9B0 /* top.png in Resources */,
 				D83535A41C6354020067527E /* 現代71.png in Resources */,
+				D86AE3B91C6A5AC5006F03A0 /* Main.storyboard in Resources */,
 				D800CE821C5CAAA100C23E3B /* 古来50.png in Resources */,
 				D835356F1C6354020067527E /* 現代18.png in Resources */,
 				D83535821C6354020067527E /* 現代37.png in Resources */,
@@ -1237,17 +1237,6 @@
 			targetProxy = D85564801C39110A00028901 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D85564731C39110A00028901 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D85564741C39110A00028901 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D85564871C39110A00028901 /* Debug */ = {
