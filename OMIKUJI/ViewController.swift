@@ -29,6 +29,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    
     //ここからシェイクの処理　↓
     //iOSシュミレーターでのシェイクは Command + Control + Z
     override func canBecomeFirstResponder() -> Bool {
