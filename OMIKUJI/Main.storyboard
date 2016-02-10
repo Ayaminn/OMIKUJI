@@ -176,10 +176,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VF5-xg-2zl">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VF5-xg-2zl">
                                 <rect key="frame" x="0.0" y="503" width="320" height="65"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBJ-G5-1pi">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBJ-G5-1pi">
                                         <rect key="frame" x="175" y="12" width="105" height="36"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="105" id="5WR-FI-KXt"/>
@@ -198,7 +198,7 @@
                                             <action selector="onClickTweetButton:" destination="C6D-ZZ-fK3" eventType="touchDown" id="Brv-r8-QjZ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" restorationIdentifier="saveButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYH-UP-YSR">
+                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="saveButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYH-UP-YSR">
                                         <rect key="frame" x="40" y="12" width="81" height="36"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="81" id="IvG-sT-9zi"/>
@@ -220,18 +220,47 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.76159776565847992" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="1EX-ko-gKE"/>
                                     <constraint firstAttribute="bottom" secondItem="PBJ-G5-1pi" secondAttribute="bottom" constant="17" id="24r-xj-vnw"/>
+                                    <constraint firstAttribute="width" secondItem="VF5-xg-2zl" secondAttribute="height" multiplier="64:13" id="4NU-79-ge2"/>
                                     <constraint firstAttribute="width" secondItem="VF5-xg-2zl" secondAttribute="height" multiplier="64:13" id="86r-e4-lQO"/>
+                                    <constraint firstAttribute="width" secondItem="VF5-xg-2zl" secondAttribute="height" multiplier="64:13" id="Dji-mZ-QGr"/>
                                     <constraint firstItem="EYH-UP-YSR" firstAttribute="leading" secondItem="VF5-xg-2zl" secondAttribute="leading" constant="40" id="IWr-J1-3mO"/>
                                     <constraint firstAttribute="trailing" secondItem="PBJ-G5-1pi" secondAttribute="trailing" constant="40" id="PuV-Mb-hrt"/>
                                     <constraint firstAttribute="bottom" secondItem="EYH-UP-YSR" secondAttribute="bottom" constant="17" id="jH3-GU-xl0"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1EX-ko-gKE"/>
+                                        <exclude reference="4NU-79-ge2"/>
+                                        <exclude reference="86r-e4-lQO"/>
+                                    </mask>
+                                </variation>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fun-vl-Uvf">
-                                <rect key="frame" x="39" y="119" width="243" height="288"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="古来.png" translatesAutoresizingMaskIntoConstraints="NO" id="fun-vl-Uvf">
+                                <rect key="frame" x="54" y="75" width="213" height="418"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fun-vl-Uvf" secondAttribute="height" multiplier="213:418" id="7OD-La-Mcj"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="VF5-xg-2zl" firstAttribute="top" secondItem="fun-vl-Uvf" secondAttribute="bottom" constant="10" id="3WH-yF-cwx"/>
+                            <constraint firstItem="fun-vl-Uvf" firstAttribute="centerX" secondItem="QZj-c4-QVd" secondAttribute="centerX" id="5zx-gh-pfp"/>
+                            <constraint firstAttribute="trailing" secondItem="VF5-xg-2zl" secondAttribute="trailing" id="MaJ-2e-E88"/>
+                            <constraint firstItem="kFa-WB-fso" firstAttribute="top" secondItem="VF5-xg-2zl" secondAttribute="bottom" id="RHr-lg-nNr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fun-vl-Uvf" secondAttribute="trailing" constant="33" id="Uur-zH-gzt"/>
+                            <constraint firstItem="VF5-xg-2zl" firstAttribute="leading" secondItem="QZj-c4-QVd" secondAttribute="leading" id="oDk-51-ahG"/>
+                            <constraint firstItem="fun-vl-Uvf" firstAttribute="top" secondItem="fgu-nH-p2r" secondAttribute="bottom" constant="11" id="rDE-Ow-q9i"/>
+                            <constraint firstItem="fun-vl-Uvf" firstAttribute="centerY" secondItem="QZj-c4-QVd" secondAttribute="centerY" id="sdl-Qa-4Ij"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Uur-zH-gzt"/>
+                                <exclude reference="3WH-yF-cwx"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="Gki-fS-YII">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="home20.png" id="hAk-EX-8uk">
@@ -274,6 +303,7 @@
         <image name="menu_new.png" width="536" height="950"/>
         <image name="menu青春.png" width="503" height="141"/>
         <image name="oneday-onetime.png" width="105" height="23"/>
+        <image name="古来.png" width="402" height="801"/>
         <image name="古来menu.png" width="503" height="141"/>
         <image name="現代menu.png" width="503" height="142"/>
     </resources>
