@@ -178,12 +178,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="12527964_916115071818673_530962410_n.png" translatesAutoresizingMaskIntoConstraints="NO" id="K9q-Xn-0qm">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="K9q-Xn-0qm" secondAttribute="height" multiplier="40:71" id="8ii-o8-er5"/>
-                                </constraints>
-                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VF5-xg-2zl">
+                                <rect key="frame" x="0.0" y="503" width="320" height="65"/>
+                                <color key="backgroundColor" red="1" green="0.76159776565847992" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="saveButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYH-UP-YSR">
                                 <rect key="frame" x="32" y="520" width="81" height="36"/>
                                 <constraints>
@@ -225,7 +223,7 @@
                                     <segue destination="a7Q-t6-SDW" kind="presentation" id="VRQ-ZQ-uKw"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fun-vl-Uvf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fun-vl-Uvf">
                                 <rect key="frame" x="66" y="96" width="188" height="376"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="fun-vl-Uvf" secondAttribute="height" multiplier="1:2" id="cMr-O8-sSy"/>
@@ -245,12 +243,10 @@
                             <constraint firstItem="fun-vl-Uvf" firstAttribute="centerY" secondItem="QZj-c4-QVd" secondAttribute="centerY" id="5eL-o2-aRh"/>
                             <constraint firstAttribute="trailing" secondItem="f1f-IQ-Sfc" secondAttribute="trailing" constant="268" id="6LP-24-rXF"/>
                             <constraint firstItem="kFa-WB-fso" firstAttribute="top" secondItem="PBJ-G5-1pi" secondAttribute="bottom" constant="12" id="6Sn-yQ-QbK"/>
-                            <constraint firstItem="kFa-WB-fso" firstAttribute="top" secondItem="K9q-Xn-0qm" secondAttribute="bottom" id="AbH-mE-Ln5"/>
                             <constraint firstAttribute="trailing" secondItem="fun-vl-Uvf" secondAttribute="trailing" constant="66" id="Bhc-i6-StU"/>
                             <constraint firstItem="kFa-WB-fso" firstAttribute="top" secondItem="PBJ-G5-1pi" secondAttribute="bottom" constant="12" id="CYo-ec-ksG"/>
                             <constraint firstItem="fun-vl-Uvf" firstAttribute="leading" secondItem="QZj-c4-QVd" secondAttribute="leading" constant="66" id="H6A-2R-n5s"/>
                             <constraint firstAttribute="trailing" secondItem="fun-vl-Uvf" secondAttribute="trailing" constant="66" id="HaT-YL-jhb"/>
-                            <constraint firstItem="kFa-WB-fso" firstAttribute="top" secondItem="K9q-Xn-0qm" secondAttribute="bottom" id="Ntq-Rl-sBZ"/>
                             <constraint firstItem="fun-vl-Uvf" firstAttribute="top" secondItem="fgu-nH-p2r" secondAttribute="bottom" constant="76" id="O2K-yX-zlc"/>
                             <constraint firstItem="PBJ-G5-1pi" firstAttribute="leading" secondItem="EYH-UP-YSR" secondAttribute="trailing" constant="61" id="PBY-Tu-Lae"/>
                             <constraint firstItem="fun-vl-Uvf" firstAttribute="leading" secondItem="QZj-c4-QVd" secondAttribute="leading" constant="66" id="PKN-dc-2Qp"/>
@@ -259,7 +255,6 @@
                             <constraint firstItem="PBJ-G5-1pi" firstAttribute="top" secondItem="fun-vl-Uvf" secondAttribute="bottom" constant="48" id="TID-cI-WCS"/>
                             <constraint firstItem="PBJ-G5-1pi" firstAttribute="leading" secondItem="EYH-UP-YSR" secondAttribute="trailing" constant="91" id="Uer-Y8-MO5"/>
                             <constraint firstItem="PBJ-G5-1pi" firstAttribute="leading" secondItem="EYH-UP-YSR" secondAttribute="trailing" constant="61" id="Wmg-Y8-ZSi"/>
-                            <constraint firstItem="K9q-Xn-0qm" firstAttribute="top" secondItem="QZj-c4-QVd" secondAttribute="top" id="Yfc-jx-vsS"/>
                             <constraint firstItem="EYH-UP-YSR" firstAttribute="top" secondItem="fun-vl-Uvf" secondAttribute="bottom" constant="48" id="hyg-p6-Z63"/>
                             <constraint firstItem="PBJ-G5-1pi" firstAttribute="top" secondItem="f1f-IQ-Sfc" secondAttribute="bottom" constant="468" id="iEB-9a-1F0"/>
                             <constraint firstItem="EYH-UP-YSR" firstAttribute="top" secondItem="f1f-IQ-Sfc" secondAttribute="bottom" constant="468" id="js2-c2-fpx"/>
@@ -268,8 +263,6 @@
                             <constraint firstItem="f1f-IQ-Sfc" firstAttribute="top" secondItem="QZj-c4-QVd" secondAttribute="top" constant="12" id="nEe-c2-6Eq"/>
                             <constraint firstItem="PBJ-G5-1pi" firstAttribute="top" secondItem="fun-vl-Uvf" secondAttribute="bottom" constant="48" id="qC0-ol-DeW"/>
                             <constraint firstItem="kFa-WB-fso" firstAttribute="top" secondItem="EYH-UP-YSR" secondAttribute="bottom" constant="12" id="rJ9-FD-Fo7"/>
-                            <constraint firstAttribute="trailing" secondItem="K9q-Xn-0qm" secondAttribute="trailing" id="tqx-Gm-LFC"/>
-                            <constraint firstItem="K9q-Xn-0qm" firstAttribute="leading" secondItem="QZj-c4-QVd" secondAttribute="leading" id="wPX-6G-N4E"/>
                             <constraint firstItem="kFa-WB-fso" firstAttribute="top" secondItem="EYH-UP-YSR" secondAttribute="bottom" constant="12" id="xlr-cY-qZj"/>
                         </constraints>
                         <variation key="default">
@@ -286,11 +279,11 @@
                                 <exclude reference="Wmg-Y8-ZSi"/>
                                 <exclude reference="iEB-9a-1F0"/>
                                 <exclude reference="6Sn-yQ-QbK"/>
-                                <exclude reference="Ntq-Rl-sBZ"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="9f2-Ey-Zh8"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="resultView" destination="fun-vl-Uvf" id="aqS-02-koO"/>
@@ -299,11 +292,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eIL-qq-ucK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="727" y="322"/>
+            <point key="canvasLocation" x="834" y="322"/>
         </scene>
     </scenes>
     <resources>
-        <image name="12527964_916115071818673_530962410_n.png" width="532" height="959"/>
         <image name="12540106_916115085152005_2121673590_n.jpg" width="532" height="945"/>
         <image name="iconmonstr-home-6-240.png" width="240" height="240"/>
         <image name="menu_new.png" width="536" height="950"/>
