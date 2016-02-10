@@ -73,7 +73,7 @@ class MenuViewController: UIViewController {
             //----今日の日付をユーザーデフォルトに保存----
             userDefaults.setObject(currentDate, forKey: "latestDate")
             //----遷移する関数を呼び出し----
-            nextViewController()
+            self.nextViewController()
         } else {
             //----今日2回目以降----
             oneDayViewController()

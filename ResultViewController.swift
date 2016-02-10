@@ -37,9 +37,9 @@ class ResultViewController: UIViewController {
     //    }
     
     
-    override func prefersStatusBarHidden() -> Bool {
+    /*override func prefersStatusBarHidden() -> Bool {
         return true
-    }
+    }*/
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,6 +63,7 @@ class ResultViewController: UIViewController {
                 break
         }
         
+        //ホームに戻るボタンの色をここで指定
         
         NSTimer.scheduledTimerWithTimeInterval(100, target: self, selector: "updateDateLabel", userInfo: nil, repeats: true)
         
