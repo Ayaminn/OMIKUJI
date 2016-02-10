@@ -76,10 +76,10 @@ class MenuViewController: UIViewController {
             self.nextViewController()
         } else {
             //----今日2回目以降----
-            oneDayViewController()
+            //oneDayViewController()
             AppDel.num = 1
             print("本日二回目以降です")
-            //nextViewController()
+            nextViewController()
         }
     }
 //----青春おみくじのボタンが押されたとき
@@ -95,8 +95,8 @@ class MenuViewController: UIViewController {
         } else {
             //----今日2回目以降----
             print("本日二回目以降です")
-            oneDayViewController()
-            //nextViewController()
+            //oneDayViewController()
+            nextViewController()
             AppDel.num = 3
         }
     }

@@ -46,10 +46,11 @@ class ViewController: UIViewController {
     override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
         if event!.type == UIEventType.Motion && event!.subtype == UIEventSubtype.MotionShake {
             
-//            performSegueWithIdentifier("result",sender: )
+
+            performSegueWithIdentifier("result",sender: nil)
             
-            let resultViewController = self.storyboard!.instantiateViewControllerWithIdentifier( "result" ) as UIViewController
-            self.presentViewController( resultViewController, animated: true, completion: nil)
+//            let resultViewController = self.storyboard!.instantiateViewControllerWithIdentifier( "result" ) as UIViewController
+//            self.presentViewController( resultViewController, animated: true, completion: nil)
 
             // シェイク動作終了時の処理
 //            var result: Int

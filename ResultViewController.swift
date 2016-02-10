@@ -68,6 +68,7 @@ class ResultViewController: UIViewController {
         NSTimer.scheduledTimerWithTimeInterval(100, target: self, selector: "updateDateLabel", userInfo: nil, repeats: true)
         
         //86400
+        
     }
     
     func updateDateLabel(){
@@ -140,12 +141,16 @@ class ResultViewController: UIViewController {
         myComposeView.addImage(resultView.image)
         self.presentViewController(myComposeView, animated: true, completion: nil)
     }
-    @IBAction func returnHomeButton(sender: AnyObject) {
-        performSegueWithIdentifier("returnHome", sender: self)
-    }
+//    @IBAction func returnHomeButton(sender: AnyObject) {
+//        performSegueWithIdentifier("returnHome", sender: self)
+//    }
 
     func saveButton(sender: UIButton) {
         UIImageWriteToSavedPhotosAlbum(resultView.image!, self, "image:didFinishSavingWithError:contextInfo:", nil)
+    }
+    
+    @IBAction func backHome(sender: AnyObject) {
+        navigationController?.popToRootViewControllerAnimated(true)
     }
     
 } 
