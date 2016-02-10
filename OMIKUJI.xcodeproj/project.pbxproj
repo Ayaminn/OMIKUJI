@@ -129,6 +129,8 @@
 		D8A1AD461C6A98A300A1E636 /* oneday-onetime.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A1AD451C6A98A300A1E636 /* oneday-onetime.png */; };
 		D8A1AD481C6A98CD00A1E636 /* 古来 06-58-18-862 in Resources */ = {isa = PBXBuildFile; fileRef = D8A1AD471C6A98CD00A1E636 /* 古来 06-58-18-862 */; };
 		D8A760E01C4C83E90063BADF /* iconapps.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A760DF1C4C83E90063BADF /* iconapps.png */; };
+		D8C746E61C6B82E800892832 /* Defaults-master in Resources */ = {isa = PBXBuildFile; fileRef = D8C746E51C6B82E800892832 /* Defaults-master */; };
+		D8C746E81C6B846C00892832 /* 3_5Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8C746E71C6B846C00892832 /* 3_5Main.storyboard */; };
 		D8F326F41C6B25AC0036AD5E /* 古来.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F326901C6B25AB0036AD5E /* 古来.png */; };
 		D8F326F51C6B25AC0036AD5E /* 古来2.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F326911C6B25AB0036AD5E /* 古来2.png */; };
 		D8F326F61C6B25AC0036AD5E /* 古来3.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F326921C6B25AB0036AD5E /* 古来3.png */; };
@@ -403,6 +405,8 @@
 		D8A1AD451C6A98A300A1E636 /* oneday-onetime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "oneday-onetime.png"; path = "古来 06-58-18-862/oneday-onetime.png"; sourceTree = "<group>"; };
 		D8A1AD471C6A98CD00A1E636 /* 古来 06-58-18-862 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "古来 06-58-18-862"; sourceTree = "<group>"; };
 		D8A760DF1C4C83E90063BADF /* iconapps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconapps.png; sourceTree = "<group>"; };
+		D8C746E51C6B82E800892832 /* Defaults-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Defaults-master"; sourceTree = "<group>"; };
+		D8C746E71C6B846C00892832 /* 3_5Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = 3_5Main.storyboard; path = ../3_5Main.storyboard; sourceTree = "<group>"; };
 		D8F326901C6B25AB0036AD5E /* 古来.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "古来.png"; path = "古来 06-58-18-862/古来.png"; sourceTree = "<group>"; };
 		D8F326911C6B25AB0036AD5E /* 古来2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "古来2.png"; path = "古来 06-58-18-862/古来2.png"; sourceTree = "<group>"; };
 		D8F326921C6B25AB0036AD5E /* 古来3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "古来3.png"; path = "古来 06-58-18-862/古来3.png"; sourceTree = "<group>"; };
@@ -589,6 +593,7 @@
 		D855646C1C39110A00028901 /* OMIKUJI */ = {
 			isa = PBXGroup;
 			children = (
+				D8C746E51C6B82E800892832 /* Defaults-master */,
 				D8F327581C6B2E950036AD5E /* photos */,
 				D88C0E271C623EE300476C42 /* UIImage+animatedGIF.h */,
 				D88C0E281C623EE300476C42 /* UIImage+animatedGIF.m */,
@@ -601,6 +606,7 @@
 				D86AE3AE1C6A4471006F03A0 /* OneDayController.swift */,
 				D86AE3B81C6A5AC5006F03A0 /* Main.storyboard */,
 				D88B617A1C4A2DD2000636A3 /* LaunchScreen6.xib */,
+				D8C746E71C6B846C00892832 /* 3_5Main.storyboard */,
 				D855646D1C39110A00028901 /* Supporting Files */,
 				D88C0E261C623EE200476C42 /* OMIKUJI-Bridging-Header.h */,
 			);
@@ -1073,6 +1079,7 @@
 				D83535A11C6354020067527E /* 現代68.png in Resources */,
 				D8F327181C6B25AC0036AD5E /* 古来37.png in Resources */,
 				D858B91E1C535C9A00C5B9B0 /* menu青春.png in Resources */,
+				D8C746E61C6B82E800892832 /* Defaults-master in Resources */,
 				D83535611C6354020067527E /* 現代4.png in Resources */,
 				D8F326F81C6B25AC0036AD5E /* 古来5.png in Resources */,
 				D8F326FA1C6B25AC0036AD5E /* 古来7.png in Resources */,
@@ -1086,6 +1093,7 @@
 				D83535751C6354020067527E /* 現代24.png in Resources */,
 				D8F327261C6B25AC0036AD5E /* 古来51.png in Resources */,
 				D83535811C6354020067527E /* 現代36.png in Resources */,
+				D8C746E81C6B846C00892832 /* 3_5Main.storyboard in Resources */,
 				D835358C1C6354020067527E /* 現代47.png in Resources */,
 				D8F327571C6B25AC0036AD5E /* 古来100.png in Resources */,
 				D835359F1C6354020067527E /* 現代66.png in Resources */,

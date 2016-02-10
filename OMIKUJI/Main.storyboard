@@ -102,7 +102,6 @@
                                 <state key="normal" image="古来menu.png"/>
                                 <connections>
                                     <action selector="old_slot:" destination="a7Q-t6-SDW" eventType="touchUpInside" id="UiU-1S-4mJ"/>
-                                    <segue destination="IyO-Zc-39U" kind="show" identifier="oneDay" id="jzn-K7-SpK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r9d-FV-GgJ">
@@ -158,6 +157,7 @@
                     <connections>
                         <outlet property="oldButton" destination="qkH-Dy-gnx" id="4To-RN-W3m"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="go" id="oex-dc-ozN"/>
+                        <segue destination="IyO-Zc-39U" kind="show" identifier="oneDay" id="CTk-J2-hCb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q9P-lo-xzl" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -265,7 +265,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OQh-Bt-ar9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="15" y="322"/>
+            <point key="canvasLocation" x="329" y="338"/>
         </scene>
     </scenes>
     <resources>
