@@ -19,6 +19,7 @@ class MenuViewController: UIViewController {
     @IBOutlet weak var oldButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 //        //----メニュー画面のロゴマークを表示する----
 //        let iconImage = UIImageView(image: UIImage(named: "iconapps .png"))
 //        iconImage.frame = CGRectMake((self.view.frame.size.width / 2) - 60, (self.oldButton.frame.origin.y) / 2 - 40, 120.0, 120.0)
@@ -32,7 +33,10 @@ class MenuViewController: UIViewController {
         
         //----本日の日付を取得したものが返ってくるので、それをcurrentDateに保存する----
         self.currentDate = getTime()
+        navigationController?.hidesBarsOnSwipe = true
     }
+
+    
     //----今日の日付を取得して、returnする----
     func getTime() -> String {
         let now = NSDate()
@@ -113,4 +117,5 @@ class MenuViewController: UIViewController {
     func oneDayViewController() {
         self.performSegueWithIdentifier("oneDay", sender: nil)
     }
+
 }

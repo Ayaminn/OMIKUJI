@@ -25,6 +25,10 @@ class OneDayController: UIViewController {
        performSegueWithIdentifier("screenTransition", sender: self)
     }
     
+    override func viewWillDisappear(animated: Bool) {
+        navigationController?.setNavigationBarHidden(true, animated: true)
+    }
+    
 
     /*
     // MARK: - Navigation

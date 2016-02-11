@@ -25,6 +25,7 @@ class ResultViewController: UIViewController {
     
     var myComposeView : SLComposeViewController!
     
+    
        @IBAction func save(sender:UIButton) {
             UIImageWriteToSavedPhotosAlbum(resultView.image!, nil, nil, nil)
        }
@@ -43,6 +44,7 @@ class ResultViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         // Do any additional setup after loading the view, typically from a nib.
         let appDel = UIApplication.sharedApplication().delegate as! AppDelegate
@@ -150,8 +152,12 @@ class ResultViewController: UIViewController {
         UIImageWriteToSavedPhotosAlbum(resultView.image!, self, "image:didFinishSavingWithError:contextInfo:", nil)
     }
     
-    @IBAction func backHome(sender: AnyObject) {
-        navigationController?.popToRootViewControllerAnimated(true)
+    override func viewWillDisappear(animated: Bool) {
+        navigationController?.setNavigationBarHidden(true, animated: true)
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
 } 

@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 //        let targetViewController = self.storyboard!.instantiateViewControllerWithIdentifier("mikuji") as! UIViewController
+        navigationController?.hidesBarsOnSwipe = true
 //        self.presentViewController( targetViewController, animated: true, completion: nil)
     }
 
@@ -28,8 +29,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
+
     
     //ここからシェイクの処理　↓
     //iOSシュミレーターでのシェイクは Command + Control + Z

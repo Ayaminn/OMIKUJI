@@ -58,5 +58,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        }
 //        return storyboard
 //    }
+    
+//    class AppDelegate: UIResponder, UIApplicationDelegate {
+//        var window: UIWindow?
+//        func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+//            // 最初に表示する画面を指定する
+//            let firstView: MenuViewController = MenuViewController()
+//            // NavigationControllerを設定する
+//            let myNavigationController: UINavigationController = UINavigationController(rootViewController: firstView)
+//            
+//            // おまじない
+//            self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+//            self.window?.rootViewController = myNavigationController
+//            self.window?.makeKeyAndVisible()
+//            return true
+//        }
+//    }
 }
 
