@@ -32,7 +32,14 @@ class MenuViewController: UIViewController {
         
         //----本日の日付を取得したものが返ってくるので、それをcurrentDateに保存する----
         self.currentDate = getTime()
-        self.navigationController.navigationBarHidden = NO
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
     }
     
 //    override func prefersStatusBarHidden() -> Bool {

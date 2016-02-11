@@ -148,6 +148,19 @@ class ResultViewController: UIViewController {
 //        performSegueWithIdentifier("returnHome", sender: self)
 //    }
 
+//    @IBAction func backHomeCont(sender: AnyObject) {
+//        let targetViewController = self.storyboard!.instantiateViewControllerWithIdentifier( "menu" ) as! UIViewController!
+//        self.presentViewController( targetViewController, animated: true, completion: nil)
+//    }
+    
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
     func saveButton(sender: UIButton) {
         UIImageWriteToSavedPhotosAlbum(resultView.image!, self, "image:didFinishSavingWithError:contextInfo:", nil)
     }

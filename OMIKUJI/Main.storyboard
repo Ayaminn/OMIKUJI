@@ -82,7 +82,7 @@
         <!--Menu View Controller-->
         <scene sceneID="fFg-wC-do1">
             <objects>
-                <viewController id="a7Q-t6-SDW" customClass="MenuViewController" customModule="OMIKUJI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="menu" id="a7Q-t6-SDW" customClass="MenuViewController" customModule="OMIKUJI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WkN-cC-wCc"/>
                         <viewControllerLayoutGuide type="bottom" id="j6U-wu-agO"/>
@@ -278,7 +278,8 @@
                     <navigationItem key="navigationItem" id="Gki-fS-YII">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="home20.png" id="hAk-EX-8uk">
                             <connections>
-                                <action selector="backHome:" destination="C6D-ZZ-fK3" id="r15-W3-Usc"/>
+                                <action selector="backHomeCont:" destination="C6D-ZZ-fK3" id="0UH-Bw-yEc"/>
+                                <segue destination="a7Q-t6-SDW" kind="show" id="SQr-AL-a2d"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -320,4 +321,7 @@
         <image name="古来menu.png" width="503" height="141"/>
         <image name="現代menu.png" width="503" height="142"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="SQr-AL-a2d"/>
+    </inferredMetricsTieBreakers>
 </document>
