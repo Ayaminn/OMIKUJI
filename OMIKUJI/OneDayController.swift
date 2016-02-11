@@ -9,6 +9,14 @@
 import UIKit
 
 class OneDayController: UIViewController {
+    
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,14 +26,6 @@ class OneDayController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    override func viewWillAppear(animated: Bool) {
-        self.navigationController?.setNavigationBarHidden(true, animated: false)
-    }
-    
-    override func viewWillDisappear(animated: Bool) {
-        self.navigationController?.setNavigationBarHidden(false, animated: false)
     }
     
     @IBAction func returnMenu(sender: UIStoryboardSegue) {
