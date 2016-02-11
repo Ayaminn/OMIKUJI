@@ -152,12 +152,4 @@ class ResultViewController: UIViewController {
         UIImageWriteToSavedPhotosAlbum(resultView.image!, self, "image:didFinishSavingWithError:contextInfo:", nil)
     }
     
-    override func viewWillDisappear(animated: Bool) {
-        navigationController?.setNavigationBarHidden(true, animated: true)
-    }
-    
-    override func viewWillAppear(animated: Bool) {
-        navigationController?.setNavigationBarHidden(false, animated: true)
-    }
-    
 } 

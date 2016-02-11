@@ -12,7 +12,6 @@ class OneDayController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
@@ -23,10 +22,6 @@ class OneDayController: UIViewController {
     
     @IBAction func returnMenu(sender: UIStoryboardSegue) {
        performSegueWithIdentifier("screenTransition", sender: self)
-    }
-    
-    override func viewWillDisappear(animated: Bool) {
-        navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
 

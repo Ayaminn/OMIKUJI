@@ -20,9 +20,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-//        let targetViewController = self.storyboard!.instantiateViewControllerWithIdentifier("mikuji") as! UIViewController
-        navigationController?.hidesBarsOnSwipe = true
-//        self.presentViewController( targetViewController, animated: true, completion: nil)
+
     }
 
     override func didReceiveMemoryWarning() {
