@@ -41,13 +41,9 @@ class ResultViewController: UIViewController {
         return true
     }*/
     
-    - (void)viewWillAppear:(BOOL)animated {
-        [super viewWillAppear:animated];
-        [self.navigationController setNavigationBarHidden:YES animated:YES];
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
         let appDel = UIApplication.sharedApplication().delegate as! AppDelegate
         let num = appDel.num

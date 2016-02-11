@@ -218,7 +218,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="0.76159776565847992" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.69411764705882351" green="0.12156862745098039" blue="0.12941176470588237" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="320" id="1EX-ko-gKE"/>
                                     <constraint firstAttribute="bottom" secondItem="PBJ-G5-1pi" secondAttribute="bottom" constant="17" id="24r-xj-vnw"/>
