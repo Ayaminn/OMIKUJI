@@ -179,25 +179,6 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VF5-xg-2zl">
                                 <rect key="frame" x="0.0" y="503" width="320" height="65"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBJ-G5-1pi">
-                                        <rect key="frame" x="175" y="12" width="105" height="36"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="105" id="5WR-FI-KXt"/>
-                                            <constraint firstAttribute="width" secondItem="PBJ-G5-1pi" secondAttribute="height" multiplier="25:9" id="VSn-gB-8Kc"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <state key="normal" title="共有する">
-                                            <color key="titleColor" red="1" green="1" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="VSn-gB-8Kc"/>
-                                            </mask>
-                                        </variation>
-                                        <connections>
-                                            <action selector="onClickTweetButton:" destination="C6D-ZZ-fK3" eventType="touchDown" id="Brv-r8-QjZ"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="saveButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYH-UP-YSR">
                                         <rect key="frame" x="40" y="12" width="81" height="36"/>
                                         <constraints>
@@ -215,6 +196,25 @@
                                         </variation>
                                         <connections>
                                             <action selector="save:" destination="C6D-ZZ-fK3" eventType="touchDown" id="e3t-B7-uDC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBJ-G5-1pi">
+                                        <rect key="frame" x="175" y="12" width="105" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="105" id="5WR-FI-KXt"/>
+                                            <constraint firstAttribute="width" secondItem="PBJ-G5-1pi" secondAttribute="height" multiplier="25:9" id="VSn-gB-8Kc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="共有する">
+                                            <color key="titleColor" red="1" green="1" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="VSn-gB-8Kc"/>
+                                            </mask>
+                                        </variation>
+                                        <connections>
+                                            <action selector="onClickTweetButton:" destination="C6D-ZZ-fK3" eventType="touchDown" id="Brv-r8-QjZ"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -238,10 +238,20 @@
                                 </variation>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="古来.png" translatesAutoresizingMaskIntoConstraints="NO" id="fun-vl-Uvf">
-                                <rect key="frame" x="54" y="75" width="213" height="418"/>
+                                <rect key="frame" x="65" y="97" width="190" height="374"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="fun-vl-Uvf" secondAttribute="height" multiplier="213:418" id="7OD-La-Mcj"/>
+                                    <constraint firstAttribute="height" constant="374" id="cWQ-ky-stf"/>
+                                    <constraint firstAttribute="width" constant="190" id="eye-4p-WAu"/>
+                                    <constraint firstAttribute="width" secondItem="fun-vl-Uvf" secondAttribute="height" multiplier="95:187" id="g6E-eb-GsA"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="7OD-La-Mcj"/>
+                                        <exclude reference="cWQ-ky-stf"/>
+                                        <exclude reference="eye-4p-WAu"/>
+                                    </mask>
+                                </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -251,6 +261,8 @@
                             <constraint firstAttribute="trailing" secondItem="VF5-xg-2zl" secondAttribute="trailing" id="MaJ-2e-E88"/>
                             <constraint firstItem="kFa-WB-fso" firstAttribute="top" secondItem="VF5-xg-2zl" secondAttribute="bottom" id="RHr-lg-nNr"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fun-vl-Uvf" secondAttribute="trailing" constant="33" id="Uur-zH-gzt"/>
+                            <constraint firstItem="fun-vl-Uvf" firstAttribute="top" secondItem="fgu-nH-p2r" secondAttribute="bottom" constant="33" id="aE3-Jf-Muh"/>
+                            <constraint firstItem="VF5-xg-2zl" firstAttribute="top" secondItem="fun-vl-Uvf" secondAttribute="bottom" constant="32" id="mdg-p6-f42"/>
                             <constraint firstItem="VF5-xg-2zl" firstAttribute="leading" secondItem="QZj-c4-QVd" secondAttribute="leading" id="oDk-51-ahG"/>
                             <constraint firstItem="fun-vl-Uvf" firstAttribute="top" secondItem="fgu-nH-p2r" secondAttribute="bottom" constant="11" id="rDE-Ow-q9i"/>
                             <constraint firstItem="fun-vl-Uvf" firstAttribute="centerY" secondItem="QZj-c4-QVd" secondAttribute="centerY" id="sdl-Qa-4Ij"/>
@@ -258,6 +270,7 @@
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="Uur-zH-gzt"/>
+                                <exclude reference="rDE-Ow-q9i"/>
                                 <exclude reference="3WH-yF-cwx"/>
                             </mask>
                         </variation>

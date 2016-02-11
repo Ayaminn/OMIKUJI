@@ -15,15 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var numDictionary = Dictionary<String,Int>()
     var num: Int!
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
-        let storyboard: UIStoryboard = self.grabStoryboard()
-        if let window = window {
-            window.rootViewController = storyboard.instantiateInitialViewController()!
-        }
-        self.window?.makeKeyAndVisible()
-        return true
-    }
+//    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+//        // Override point for customization after application launch.
+//        let storyboard: UIStoryboard = self.grabStoryboard()
+//        if let window = window {
+//            window.rootViewController = storyboard.instantiateInitialViewController()!
+//        }
+//        self.window?.makeKeyAndVisible()
+//        return true
+//    }
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -47,16 +47,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-    func grabStoryboard() -> UIStoryboard {
-        var storyboard = UIStoryboard()
-        //let storyboard: UIStoryboard
-        let height = UIScreen.mainScreen().bounds.size.height
-        if height == 480 {
-            storyboard = UIStoryboard(name: "3_5Main", bundle: nil)
-        } else {
-            storyboard = UIStoryboard(name: "Main", bundle: nil)
-        }
-        return storyboard
-    }
+//    func grabStoryboard() -> UIStoryboard {
+//        var storyboard = UIStoryboard()
+//        //let storyboard: UIStoryboard
+//        let height = UIScreen.mainScreen().bounds.size.height
+//        if height == 480 {
+//            storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        } else {
+//            storyboard = UIStoryboard(name: "3_5Main", bundle: nil)
+//        }
+//        return storyboard
+//    }
 }
 
