@@ -19,16 +19,6 @@ class MenuViewController: UIViewController {
     @IBOutlet weak var oldButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-//        //----メニュー画面のロゴマークを表示する----
-//        let iconImage = UIImageView(image: UIImage(named: "iconapps .png"))
-//        iconImage.frame = CGRectMake((self.view.frame.size.width / 2) - 60, (self.oldButton.frame.origin.y) / 2 - 40, 120.0, 120.0)
-//        self.view.addSubview(iconImage)
-        
-//        let iconImage = UIImageView(frame: CGRectMake(0,0,120.0, 120.0))
-//        let image:UIImage = UIImage(named: "appicon.png")!
-//        iconImage.image = image
-//        iconImage.layer.position = CGPoint(x:(self.view.frame.size.width / 2), y:(self.oldButton.frame.origin.y) / 2)
-//        self.view.addSubview(iconImage)
         
         //----本日の日付を取得したものが返ってくるので、それをcurrentDateに保存する----
         self.currentDate = getTime()
@@ -79,7 +69,7 @@ class MenuViewController: UIViewController {
         }
     }
 //----現代おみくじのボタンが押されたとき
-    @IBAction func presemt_slot(sender: AnyObject) {
+    @IBAction func presemt_slots(sender: AnyObject) {
         if(userDefaults.stringForKey("latestDate") != currentDate){
             //----今日まだおみくじを引いていないとき----
             //----現代おみくじは 2  ----
@@ -87,13 +77,13 @@ class MenuViewController: UIViewController {
             //----今日の日付をユーザーデフォルトに保存----
             userDefaults.setObject(currentDate, forKey: "latestDate")
             //----遷移する関数を呼び出し----
-            self.nextViewController()
+            nextViewController()
         } else {
             //----今日2回目以降----
             //oneDayViewController()
-            AppDel.num = 1
             print("本日二回目以降です")
             nextViewController()
+            AppDel.num = 2
         }
     }
 //----青春おみくじのボタンが押されたとき

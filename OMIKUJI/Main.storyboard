@@ -125,6 +125,7 @@
                                 <state key="normal" image="現代menu.png"/>
                                 <connections>
                                     <action selector="presemt_slot:" destination="a7Q-t6-SDW" eventType="touchUpInside" id="yke-wH-BwE"/>
+                                    <action selector="presemt_slots:" destination="a7Q-t6-SDW" eventType="touchDown" id="G5B-eh-WIO"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="oneday-onetime.png" translatesAutoresizingMaskIntoConstraints="NO" id="RSl-Tz-0Sy">
@@ -240,7 +241,7 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="古来.png" translatesAutoresizingMaskIntoConstraints="NO" id="fun-vl-Uvf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fun-vl-Uvf">
                                 <rect key="frame" x="65" y="97" width="190" height="374"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="fun-vl-Uvf" secondAttribute="height" multiplier="213:418" id="7OD-La-Mcj"/>
@@ -320,11 +321,10 @@
         <image name="menu_new.png" width="536" height="950"/>
         <image name="menu青春.png" width="503" height="141"/>
         <image name="oneday-onetime.png" width="105" height="23"/>
-        <image name="古来.png" width="402" height="801"/>
         <image name="古来menu.png" width="503" height="141"/>
         <image name="現代menu.png" width="503" height="142"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vJ9-Da-8ZO"/>
+        <segue reference="SQr-AL-a2d"/>
     </inferredMetricsTieBreakers>
 </document>

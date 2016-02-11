@@ -50,36 +50,7 @@ class ViewController: UIViewController {
     
     override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
         if event!.type == UIEventType.Motion && event!.subtype == UIEventSubtype.MotionShake {
-            
-
             performSegueWithIdentifier("result",sender: nil)
-            
-//            let resultViewController = self.storyboard!.instantiateViewControllerWithIdentifier( "result" ) as UIViewController
-//            self.presentViewController( resultViewController, animated: true, completion: nil)
-
-            // シェイク動作終了時の処理
-//            var result: Int
-//            result = Int (arc4random_uniform(5))
-//            
-//            switch result {
-//            case 0:
-//                ansewer = "大吉"
-//                answerLabel.text = ansewer
-//            case 1:
-//                ansewer = "中吉"
-//                answerLabel.text = ansewer
-//            case 2:
-//                ansewer = "小吉"
-//                answerLabel.text = ansewer
-//            case 3:
-//                ansewer = "吉"
-//                answerLabel.text = ansewer
-//            case 4:
-//                ansewer = "凶"
-//                answerLabel.text = ansewer
-//            default:
-//                print("エラー")
-//            }
         }
     }
 }
