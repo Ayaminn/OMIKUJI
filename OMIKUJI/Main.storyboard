@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="1236" y="322"/>
         </scene>
-        <!--One Day Controller-->
+        <!--One Day View Controller-->
         <scene sceneID="8dI-Pr-EnZ">
             <objects>
-                <viewController id="IyO-Zc-39U" customClass="OneDayController" sceneMemberID="viewController">
+                <viewController id="IyO-Zc-39U" customClass="OneDayViewController" customModule="OMIKUJI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4HL-eC-Xul"/>
                         <viewControllerLayoutGuide type="bottom" id="ADx-wo-IFQ"/>
@@ -58,13 +58,16 @@
                                 <color key="textColor" red="1" green="1" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Vk-hX-PId">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Vk-hX-PId">
                                 <rect key="frame" x="8" y="8" width="26" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="1Vk-hX-PId" secondAttribute="height" multiplier="26:25" id="8M3-Qj-903"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <state key="normal" title="×"/>
+                                <connections>
+                                    <segue destination="a7Q-t6-SDW" kind="show" id="vJ9-Da-8ZO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.52549019607843139" green="0.094117647058823528" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
@@ -72,11 +75,6 @@
                             <constraint firstItem="1Vk-hX-PId" firstAttribute="leading" secondItem="70j-FL-Jqf" secondAttribute="leading" constant="8" id="Gt3-7q-kaS"/>
                             <constraint firstItem="1Vk-hX-PId" firstAttribute="top" secondItem="70j-FL-Jqf" secondAttribute="top" constant="8" id="Sg0-05-Loy"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="1Vk-hX-PId"/>
-                            </mask>
-                        </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
@@ -327,6 +325,6 @@
         <image name="現代menu.png" width="503" height="142"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="SQr-AL-a2d"/>
+        <segue reference="vJ9-Da-8ZO"/>
     </inferredMetricsTieBreakers>
 </document>

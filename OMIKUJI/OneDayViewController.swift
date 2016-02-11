@@ -8,19 +8,20 @@
 
 import UIKit
 
-class OneDayController: UIViewController {
-    
+class OneDayViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
     override func viewWillAppear(animated: Bool) {
+        //        self.navigationController?.navigationBar.barTintColor = UIColor(red: 0.694, green: 0.122, blue: 0.129, alpha: 1.0)
         self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
     override func viewWillDisappear(animated: Bool) {
         self.navigationController?.setNavigationBarHidden(false, animated: false)
-    }
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

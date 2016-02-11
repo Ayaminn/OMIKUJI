@@ -79,6 +79,13 @@ class ResultViewController: UIViewController {
         let topViewController = self.storyboard!.instantiateViewControllerWithIdentifier( "back" ) as UIViewController
         self.presentViewController( topViewController, animated: true, completion: nil)
         
+        // 色を変数に用意しておく
+        //let colors = UIColor(red: 0.694, green: 0.122, blue: 0.129, alpha: 1.0)
+        
+        // 背景の色を変えたい。
+        self.navigationController?.navigationBar.backgroundColor = UIColor(red: 0.694, green: 0.122, blue: 0.129, alpha: 1.0)
+
+        
     }
     
     var dateFormatter: NSDateFormatter{
@@ -155,6 +162,7 @@ class ResultViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         self.navigationController?.setNavigationBarHidden(false, animated: false)
+        self.navigationController?.navigationBar.barTintColor = UIColor(red: 0.694, green: 0.122, blue: 0.129, alpha: 1.0)
     }
     
     override func viewWillDisappear(animated: Bool) {
