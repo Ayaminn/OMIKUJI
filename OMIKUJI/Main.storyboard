@@ -38,7 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1236" y="322"/>
+            <point key="canvasLocation" x="1196" y="322"/>
         </scene>
         <!--One Day View Controller-->
         <scene sceneID="8dI-Pr-EnZ">
@@ -80,7 +80,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WyJ-kv-od4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="827" y="1006"/>
+            <point key="canvasLocation" x="827" y="952"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="fFg-wC-do1">
@@ -294,7 +294,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eIL-qq-ucK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1622" y="322"/>
+            <point key="canvasLocation" x="1566" y="322"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IfX-hD-zl0">
@@ -325,6 +325,6 @@
         <image name="現代menu.png" width="503" height="142"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="SQr-AL-a2d"/>
+        <segue reference="vJ9-Da-8ZO"/>
     </inferredMetricsTieBreakers>
 </document>
