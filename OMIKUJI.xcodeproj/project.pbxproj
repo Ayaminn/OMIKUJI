@@ -257,8 +257,6 @@
 		D88B617B1C4A2DD2000636A3 /* LaunchScreen6.xib in Resources */ = {isa = PBXBuildFile; fileRef = D88B617A1C4A2DD2000636A3 /* LaunchScreen6.xib */; };
 		D88C0E291C623EE300476C42 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D88C0E281C623EE300476C42 /* UIImage+animatedGIF.m */; };
 		D89227361C6A36C8006A263F /* menu_new.png in Resources */ = {isa = PBXBuildFile; fileRef = D89227351C6A36C8006A263F /* menu_new.png */; };
-		D8A0DAE01C74692E0039BF60 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A0DADF1C74692E0039BF60 /* icon.png */; };
-		D8A760E01C4C83E90063BADF /* iconapps.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A760DF1C4C83E90063BADF /* iconapps.png */; };
 		D8B19A901C748E3C0015955B /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = D8B19A7A1C748E3C0015955B /* Contents.json */; };
 		D8B19A911C748E3C0015955B /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B19A7B1C748E3C0015955B /* Icon-40.png */; };
 		D8B19A921C748E3C0015955B /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B19A7C1C748E3C0015955B /* Icon-40@2x.png */; };
@@ -281,6 +279,7 @@
 		D8B19AA31C748E3C0015955B /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B19A8D1C748E3C0015955B /* iTunesArtwork.png */; };
 		D8B19AA41C748E3C0015955B /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B19A8E1C748E3C0015955B /* iTunesArtwork@2x.png */; };
 		D8C746E81C6B846C00892832 /* 3_5Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8C746E71C6B846C00892832 /* 3_5Main.storyboard */; };
+		D8D0F73A1C79C1AC009BCE6D /* iconapps.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8D0F7391C79C1AC009BCE6D /* iconapps.jpg */; };
 		D8F3275B1C6B34AE0036AD5E /* home20.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F327591C6B34AE0036AD5E /* home20.png */; };
 		D8F3275C1C6B34AE0036AD5E /* home20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F3275A1C6B34AE0036AD5E /* home20@2x.png */; };
 		D8FC567A1C4A3A7100436299 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8FC56791C4A3A7100436299 /* Images.xcassets */; };
@@ -552,8 +551,6 @@
 		D88C0E271C623EE300476C42 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
 		D88C0E281C623EE300476C42 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 		D89227351C6A36C8006A263F /* menu_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_new.png; sourceTree = "<group>"; };
-		D8A0DADF1C74692E0039BF60 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		D8A760DF1C4C83E90063BADF /* iconapps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconapps.png; sourceTree = "<group>"; };
 		D8B19A7A1C748E3C0015955B /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		D8B19A7B1C748E3C0015955B /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
 		D8B19A7C1C748E3C0015955B /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
@@ -576,6 +573,7 @@
 		D8B19A8D1C748E3C0015955B /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
 		D8B19A8E1C748E3C0015955B /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		D8C746E71C6B846C00892832 /* 3_5Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 3_5Main.storyboard; sourceTree = "<group>"; };
+		D8D0F7391C79C1AC009BCE6D /* iconapps.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iconapps.jpg; sourceTree = "<group>"; };
 		D8F327591C6B34AE0036AD5E /* home20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home20.png; sourceTree = "<group>"; };
 		D8F3275A1C6B34AE0036AD5E /* home20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home20@2x.png"; sourceTree = "<group>"; };
 		D8FC56791C4A3A7100436299 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -956,13 +954,12 @@
 		D8B19AAA1C748EAF0015955B /* General */ = {
 			isa = PBXGroup;
 			children = (
+				D8D0F7391C79C1AC009BCE6D /* iconapps.jpg */,
 				D86AE3B61C6A5079006F03A0 /* 12527964_916115071818673_530962410_n.png */,
 				D84097CE1C623B08004C9A72 /* 12540106_916115085152005_2121673590_n.jpg */,
 				815875DC1C5E398400821609 /* bg.png */,
 				D8F327591C6B34AE0036AD5E /* home20.png */,
 				D8F3275A1C6B34AE0036AD5E /* home20@2x.png */,
-				D8A0DADF1C74692E0039BF60 /* icon.png */,
-				D8A760DF1C4C83E90063BADF /* iconapps.png */,
 				D86AE3B41C6A4BEC006F03A0 /* iconmonstr-home-6-240.png */,
 				D86D26B71C6CC5B600E47DF2 /* oneday-onetime.png */,
 				D858B9161C535A2900C5B9B0 /* top.png */,
@@ -1120,7 +1117,6 @@
 				D86D27681C6CC61700E47DF2 /* 古来76.png in Resources */,
 				D858B91D1C535C9A00C5B9B0 /* menu.png in Resources */,
 				D86D27541C6CC61700E47DF2 /* 古来56.png in Resources */,
-				D8A760E01C4C83E90063BADF /* iconapps.png in Resources */,
 				D8B19A991C748E3C0015955B /* Icon-Small.png in Resources */,
 				D86D271F1C6CC61700E47DF2 /* 古来3.png in Resources */,
 				D86D26A41C6CC4C700E47DF2 /* 現代82.png in Resources */,
@@ -1213,7 +1209,6 @@
 				D86D26851C6CC4C700E47DF2 /* 現代51.png in Resources */,
 				D86D268C1C6CC4C700E47DF2 /* 現代58.png in Resources */,
 				D8B19A9B1C748E3C0015955B /* Icon-Small@3x.png in Resources */,
-				D8A0DAE01C74692E0039BF60 /* icon.png in Resources */,
 				D86D277E1C6CC61700E47DF2 /* 古来98.png in Resources */,
 				D86D26881C6CC4C700E47DF2 /* 現代54.png in Resources */,
 				D86D27591C6CC61700E47DF2 /* 古来61.png in Resources */,
@@ -1321,6 +1316,7 @@
 				D86D25E91C6CC44D00E47DF2 /* 青春２５.png in Resources */,
 				D86D25EB1C6CC44D00E47DF2 /* 青春２７.png in Resources */,
 				D8F3275B1C6B34AE0036AD5E /* home20.png in Resources */,
+				D8D0F73A1C79C1AC009BCE6D /* iconapps.jpg in Resources */,
 				D86D268E1C6CC4C700E47DF2 /* 現代60.png in Resources */,
 				D86D27241C6CC61700E47DF2 /* 古来8.png in Resources */,
 				D86D26661C6CC4C700E47DF2 /* 現代20.png in Resources */,

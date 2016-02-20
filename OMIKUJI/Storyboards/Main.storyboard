@@ -134,6 +134,9 @@
                                     <constraint firstAttribute="width" secondItem="RSl-Tz-0Sy" secondAttribute="height" multiplier="89:19" id="ybM-Eb-WAf"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconapps.png" translatesAutoresizingMaskIntoConstraints="NO" id="av7-Eu-9rL">
+                                <rect key="frame" x="40" y="55" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -162,7 +165,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q9P-lo-xzl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="827" y="322"/>
+            <point key="canvasLocation" x="839" y="322"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="Rvc-at-JSS">
@@ -315,6 +318,7 @@
         <image name="12540106_916115085152005_2121673590_n.jpg" width="532" height="945"/>
         <image name="bg.png" width="379" height="549"/>
         <image name="home20.png" width="20" height="20"/>
+        <image name="iconapps.png" width="428" height="428"/>
         <image name="menu青春.png" width="503" height="141"/>
         <image name="oneday-onetime.png" width="105" height="23"/>
         <image name="古来menu.png" width="503" height="141"/>
