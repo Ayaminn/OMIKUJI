@@ -99,8 +99,8 @@ class MenuViewController: UIViewController {
         } else {
             //----今日2回目以降----
             print("本日二回目以降です")
-            oneDayViewController()
-            //nextViewController()
+            //oneDayViewController()
+            nextViewController()
             AppDel.num = 3
         }
     }

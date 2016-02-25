@@ -33,14 +33,15 @@ class ResultViewController: UIViewController {
         let appDel = UIApplication.sharedApplication().delegate as! AppDelegate
         let num = appDel.num
         
-        let ret = Int(arc4random_uniform(3))
+        let rets = Int(arc4random_uniform(100))
+        let ret = Int(arc4random_uniform(30))
         
         switch(num){
             case 1:
-                resultView.image = UIImage(named: oldImgNameArray[ret])
+                resultView.image = UIImage(named: oldImgNameArray[rets])
                 break
             case 2:
-                resultView.image = UIImage(named: presentImgNameArray[ret])
+                resultView.image = UIImage(named: presentImgNameArray[rets])
                 break
             case 3:
                 resultView.image = UIImage(named: aohaRoidImgNameArray[ret])
