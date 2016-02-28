@@ -32,11 +32,7 @@ class MenuViewController: UIViewController {
         self.navigationController?.setNavigationBarHidden(false, animated: false)
     }
     
-//    override func prefersStatusBarHidden() -> Bool {
-//        return navigationController!.navigationBarHidden
-//    }
 
-    
     //----今日の日付を取得して、returnする----
     func getTime() -> String {
         let now = NSDate()
@@ -68,6 +64,7 @@ class MenuViewController: UIViewController {
             //===== テスト用 =====
         }
     }
+    
 //----現代おみくじのボタンが押されたとき
     @IBAction func presemt_slots(sender: AnyObject) {
         if(userDefaults.stringForKey("latestDate") != currentDate){
@@ -89,6 +86,7 @@ class MenuViewController: UIViewController {
             //===== テスト用 =====
         }
     }
+    
 //----青春おみくじのボタンが押されたとき
     @IBAction func aohaRoid_slot(sender: AnyObject) {
         if(userDefaults.stringForKey("latestDate") != currentDate){
@@ -103,6 +101,7 @@ class MenuViewController: UIViewController {
             //----今日2回目以降----
             print("本日二回目以降です")
             oneDayViewController()
+            
             //====== テスト用 =====
             AppDel.num = 1
             //nextViewController()

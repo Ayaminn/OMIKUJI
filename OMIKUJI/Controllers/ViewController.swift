@@ -12,10 +12,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var answerLabel: UILabel!
     var ansewer: String!
-    
-    /*override func prefersStatusBarHidden() -> Bool {
-        return true
-    }*/
 
     override func viewDidLoad() {
         super.viewDidLoad()
